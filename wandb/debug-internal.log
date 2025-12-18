@@ -1,0 +1,11 @@
+{"time":"2025-11-25T14:41:11.905461865Z","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-25T14:41:12.200858224Z","level":"INFO","msg":"stream: created new stream","id":"lijd6ets"}
+{"time":"2025-11-25T14:41:12.20090375Z","level":"INFO","msg":"handler: started","stream_id":"lijd6ets"}
+{"time":"2025-11-25T14:41:12.201034555Z","level":"INFO","msg":"stream: started","id":"lijd6ets"}
+{"time":"2025-11-25T14:41:12.201040937Z","level":"INFO","msg":"writer: started","stream_id":"lijd6ets"}
+{"time":"2025-11-25T14:41:12.201045756Z","level":"INFO","msg":"sender: started","stream_id":"lijd6ets"}
+{"time":"2025-11-25T16:10:34.125176531Z","level":"INFO","msg":"stream: closing","id":"lijd6ets"}
+{"time":"2025-11-25T16:10:36.18548983Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-25T16:10:36.736141486Z","level":"INFO","msg":"handler: closed","stream_id":"lijd6ets"}
+{"time":"2025-11-25T16:10:36.736270759Z","level":"INFO","msg":"sender: closed","stream_id":"lijd6ets"}
+{"time":"2025-11-25T16:10:36.736298932Z","level":"INFO","msg":"stream: closed","id":"lijd6ets"}

@@ -1,0 +1,72 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Failed on None: name 'config' is not defined
+Traceback (most recent call last):                                                                                                                                       
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+Failed on None: name 'config' is not defined
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 970, in <module>
+    main()
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 946, in main
+    summary = run_experiment(
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 704, in run_experiment
+    routed_result = pipeline.run(image=image_source, question=question)
+  File "/root/OCR_route/OCR-route/ocr_route/main.py", line 28, in run
+    return route(
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 226, in route
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 146, in _run_pass
+    inputs = prepare_inputs(processor, image_source, question, ocr_text=ocr_text)
+  File "/root/OCR_route/OCR-route/ocr_route/inference.py", line 65, in generate
+    outputs = model.generate(**model_inputs, **generation_kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2564, in generate
+    result = decoding_method(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2779, in _sample
+    while self._has_unfinished_sequences(this_peer_finished, synced_gpus, device=input_ids.device):
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2597, in _has_unfinished_sequences
+    elif this_peer_finished:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 970, in <module>
+    main()
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 946, in main
+    summary = run_experiment(
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 704, in run_experiment
+    routed_result = pipeline.run(image=image_source, question=question)
+  File "/root/OCR_route/OCR-route/ocr_route/main.py", line 28, in run
+    return route(
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 226, in route
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 146, in _run_pass
+    inputs = prepare_inputs(processor, image_source, question, ocr_text=ocr_text)
+  File "/root/OCR_route/OCR-route/ocr_route/inference.py", line 65, in generate
+    outputs = model.generate(**model_inputs, **generation_kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2564, in generate
+    result = decoding_method(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2779, in _sample
+    while self._has_unfinished_sequences(this_peer_finished, synced_gpus, device=input_ids.device):
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2597, in _has_unfinished_sequences
+    elif this_peer_finished:
+KeyboardInterrupt

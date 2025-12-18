@@ -1,0 +1,9 @@
+{
+  "type": "temperature",
+  "T": 0.1,
+  "features": [
+    "out1_entropy",
+    "neg_out1_margin"
+  ],
+  "combo": "w1=1.0,w2=1.0"
+}

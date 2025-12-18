@@ -1,0 +1,74 @@
+{
+  "os":  "Linux-6.14.0-29-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.10.19",
+  "startedAt":  "2025-11-03T10:42:45.934441Z",
+  "args":  [
+    "--dataset",
+    "cc-ocr",
+    "--config",
+    "multi_scene_ocr",
+    "--split",
+    "test",
+    "--limit",
+    "300",
+    "--question-template",
+    "Please transcribe all visible text in this chart.",
+    "--out",
+    "outputs/cc_ocr_results_test.jsonl",
+    "--model-id",
+    "Qwen/Qwen2-VL-7B-Instruct",
+    "--max-pixels",
+    "512000",
+    "--ocr-engine",
+    "easyocr",
+    "--experiment-set",
+    "none",
+    "--enable-wandb",
+    "--wandb-project",
+    "ocr-routing",
+    "--wandb-entity",
+    "dhkang0428-sungkyunkwan-university",
+    "--wandb-tag",
+    "cc-ocr",
+    "--wandb-tag",
+    "short-run"
+  ],
+  "program":  "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py",
+  "codePath":  "scripts/run_dataset_eval.py",
+  "codePathLocal":  "scripts/run_dataset_eval.py",
+  "email":  "dhkang0428@gmail.com",
+  "root":  "/root/OCR_route/OCR-route",
+  "host":  "dhkang0428",
+  "executable":  "/root/miniconda3/envs/ocr/bin/python3",
+  "cpu_count":  16,
+  "cpu_count_logical":  28,
+  "gpu":  "NVIDIA GeForce RTX 5090",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "1242651688960",
+      "used":  "208495706112"
+    }
+  },
+  "memory":  {
+    "total":  "119283691520"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 5090",
+      "memoryTotal":  "34190917632",
+      "cudaCores":  21760,
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-dbdcee25-c123-f014-d6d0-8ab66ecc6390"
+    },
+    {
+      "name":  "NVIDIA GeForce RTX 5090",
+      "memoryTotal":  "34190917632",
+      "cudaCores":  21760,
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-1c33d0ab-17b8-ba14-1b55-e89d7e8aabd2"
+    }
+  ],
+  "cudaVersion":  "12.8",
+  "writerId":  "uf641odaafljm7gu9spdfpzw0q7xk8w4"
+}

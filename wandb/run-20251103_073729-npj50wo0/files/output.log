@@ -1,0 +1,141 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+2025-11-03 07:37:32,842 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.412 min_margin=0.010 legacy=True dynamic=True tau_H=3.500 tau_m=1.000 structured=False
+Experiment baseline_no_ocr:   0%|                                                                                                     | 1/2750 [00:03<2:54:51,  3.82s/it]2025-11-03 07:37:34,613 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.221 min_margin=0.504 legacy=True dynamic=True tau_H=3.500 tau_m=1.000 structured=False
+Experiment baseline_no_ocr:   0%|                                                                                                     | 2/2750 [00:05<1:59:39,  2.61s/it]2025-11-03 07:37:36,909 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.156 min_margin=0.368 legacy=True dynamic=True tau_H=3.500 tau_m=1.000 structured=False
+Experiment baseline_no_ocr:   0%|                                                                                                     | 3/2750 [00:07<1:53:00,  2.47s/it]2025-11-03 07:37:38,450 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.214 min_margin=0.843 legacy=True dynamic=True tau_H=3.500 tau_m=1.000 structured=False
+Experiment baseline_no_ocr:   0%|▏                                                                                                    | 4/2750 [00:09<1:36:12,  2.10s/it]2025-11-03 07:37:41,067 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.347 min_margin=0.050 legacy=True dynamic=True tau_H=3.500 tau_m=1.000 structured=False
+Experiment baseline_no_ocr:   0%|▏                                                                                                    | 5/2750 [00:12<1:44:41,  2.29s/it]2025-11-03 07:37:44,406 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.410 min_margin=0.001 legacy=True dynamic=True tau_H=3.500 tau_m=1.000 structured=False
+Experiment baseline_no_ocr:   0%|▏                                                                                                    | 6/2750 [00:15<2:00:59,  2.65s/it]2025-11-03 07:37:47,986 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.162 min_margin=0.166 legacy=True dynamic=True tau_H=3.500 tau_m=1.000 structured=False
+Experiment baseline_no_ocr:   0%|▎                                                                                                    | 7/2750 [00:18<2:14:57,  2.95s/it]2025-11-03 07:37:49,364 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.866 min_margin=0.015 legacy=True dynamic=True tau_H=3.500 tau_m=1.000 structured=False
+Experiment baseline_no_ocr:   0%|▎                                                                                                    | 8/2750 [00:20<1:51:56,  2.45s/it]2025-11-03 07:37:52,449 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.149 min_margin=0.111 legacy=True dynamic=True tau_H=3.500 tau_m=1.000 structured=False
+Experiment baseline_no_ocr:   0%|▎                                                                                                    | 9/2750 [00:23<2:01:01,  2.65s/it]2025-11-03 07:37:56,023 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.303 min_margin=0.019 legacy=True dynamic=True tau_H=3.500 tau_m=1.000 structured=False
+Experiment baseline_no_ocr:   0%|▎                                                                                                   | 10/2750 [00:27<2:14:01,  2.94s/it]2025-11-03 07:37:57,455 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.227 min_margin=0.081 legacy=True dynamic=True tau_H=3.500 tau_m=1.000 structured=False
+Experiment baseline_no_ocr:   0%|▍                                                                                                   | 11/2750 [00:28<1:52:55,  2.47s/it]2025-11-03 07:37:59,449 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.115 min_margin=1.438 legacy=False dynamic=False tau_H=3.500 tau_m=1.000 structured=False
+Traceback (most recent call last):                                                                                                                                       
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 987, in <module>
+    main()
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 963, in main
+    summary = run_experiment(
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 721, in run_experiment
+    routed_result = pipeline.run(image=image_source, question=question)
+  File "/root/OCR_route/OCR-route/ocr_route/main.py", line 28, in run
+    return route(
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 227, in route
+    first_pass = _run_pass(
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 147, in _run_pass
+    result = generate(model, processor, inputs, config=generation_cfg)
+  File "/root/OCR_route/OCR-route/ocr_route/inference.py", line 65, in generate
+    outputs = model.generate(**model_inputs, **generation_kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2564, in generate
+    result = decoding_method(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2787, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 1356, in forward
+    outputs = self.model(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 1220, in forward
+    outputs = self.language_model(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 862, in forward
+    layer_outputs = decoder_layer(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 598, in forward
+    hidden_states = self.input_layernorm(hidden_states)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 200, in forward
+    hidden_states = hidden_states * torch.rsqrt(variance + self.variance_epsilon)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 987, in <module>
+    main()
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 963, in main
+    summary = run_experiment(
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 721, in run_experiment
+    routed_result = pipeline.run(image=image_source, question=question)
+  File "/root/OCR_route/OCR-route/ocr_route/main.py", line 28, in run
+    return route(
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 227, in route
+    first_pass = _run_pass(
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 147, in _run_pass
+    result = generate(model, processor, inputs, config=generation_cfg)
+  File "/root/OCR_route/OCR-route/ocr_route/inference.py", line 65, in generate
+    outputs = model.generate(**model_inputs, **generation_kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2564, in generate
+    result = decoding_method(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2787, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 1356, in forward
+    outputs = self.model(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 1220, in forward
+    outputs = self.language_model(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 862, in forward
+    layer_outputs = decoder_layer(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 598, in forward
+    hidden_states = self.input_layernorm(hidden_states)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/accelerate/hooks.py", line 175, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 200, in forward
+    hidden_states = hidden_states * torch.rsqrt(variance + self.variance_epsilon)
+KeyboardInterrupt

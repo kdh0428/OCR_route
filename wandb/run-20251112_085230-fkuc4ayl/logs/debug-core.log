@@ -1,0 +1,14 @@
+{"time":"2025-11-12T08:52:30.688324408Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpcsq1z_tn/port-4305.txt","pid":4305,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-11-12T08:52:30.689010639Z","level":"INFO","msg":"server: will exit if parent process dies","ppid":4305}
+{"time":"2025-11-12T08:52:30.689015217Z","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-4305-4499-3468790590/socket","Net":"unix"}}
+{"time":"2025-11-12T08:52:30.835393965Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-11-12T08:52:30.841401217Z","level":"INFO","msg":"handleInformInit: received","streamId":"fkuc4ayl","id":"1(@)"}
+{"time":"2025-11-12T08:52:31.142559306Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"fkuc4ayl","id":"1(@)"}
+{"time":"2025-11-12T10:50:31.591936855Z","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"1(@)"}
+{"time":"2025-11-12T10:50:31.592320917Z","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-11-12T10:50:31.592313653Z","level":"INFO","msg":"connection: closing","id":"1(@)"}
+{"time":"2025-11-12T10:50:31.592395076Z","level":"INFO","msg":"connection: closed successfully","id":"1(@)"}
+{"time":"2025-11-12T10:50:31.592497208Z","level":"INFO","msg":"server: listener closed","addr":{"Name":"/tmp/wandb-4305-4499-3468790590/socket","Net":"unix"}}
+{"time":"2025-11-12T10:50:33.851730565Z","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"1(@)"}
+{"time":"2025-11-12T10:50:33.851760211Z","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"1(@)"}
+{"time":"2025-11-12T10:50:33.851769468Z","level":"INFO","msg":"server is closed"}

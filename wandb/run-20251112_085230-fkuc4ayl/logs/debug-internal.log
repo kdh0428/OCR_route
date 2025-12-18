@@ -1,0 +1,11 @@
+{"time":"2025-11-12T08:52:30.841508619Z","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-12T08:52:31.140414231Z","level":"INFO","msg":"stream: created new stream","id":"fkuc4ayl"}
+{"time":"2025-11-12T08:52:31.142522878Z","level":"INFO","msg":"handler: started","stream_id":"fkuc4ayl"}
+{"time":"2025-11-12T08:52:31.142552654Z","level":"INFO","msg":"stream: started","id":"fkuc4ayl"}
+{"time":"2025-11-12T08:52:31.14256648Z","level":"INFO","msg":"writer: started","stream_id":"fkuc4ayl"}
+{"time":"2025-11-12T08:52:31.142600103Z","level":"INFO","msg":"sender: started","stream_id":"fkuc4ayl"}
+{"time":"2025-11-12T10:50:31.592321418Z","level":"INFO","msg":"stream: closing","id":"fkuc4ayl"}
+{"time":"2025-11-12T10:50:33.58975534Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-12T10:50:33.844482655Z","level":"INFO","msg":"handler: closed","stream_id":"fkuc4ayl"}
+{"time":"2025-11-12T10:50:33.844665989Z","level":"INFO","msg":"sender: closed","stream_id":"fkuc4ayl"}
+{"time":"2025-11-12T10:50:33.844697358Z","level":"INFO","msg":"stream: closed","id":"fkuc4ayl"}

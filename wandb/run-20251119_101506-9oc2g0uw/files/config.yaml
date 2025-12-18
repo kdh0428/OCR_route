@@ -1,0 +1,93 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            nvhx3vggco5vfvnyp6us2omr79xhzro2:
+                args:
+                    - --dataset
+                    - cc-ocr
+                    - --config
+                    - multi_scene_ocr
+                    - --split
+                    - test
+                    - --limit
+                    - "300"
+                    - --question-template
+                    - Please transcribe all visible text in this chart.
+                    - --out
+                    - outputs/cc_ocr_results_test.jsonl
+                    - --model-id
+                    - Qwen/Qwen2-VL-7B-Instruct
+                    - --ocr-engine
+                    - paddleocr
+                    - --experiment-set
+                    - none
+                    - --include-baseline
+                    - --include-always
+                    - --enable-wandb
+                    - --wandb-project
+                    - ocr-routing
+                    - --wandb-entity
+                    - dhkang0428-sungkyunkwan-university
+                    - --wandb-tag
+                    - cc-ocr
+                    - --wandb-tag
+                    - short-run
+                    - --print-comparisons
+                codePath: scripts/run_dataset_eval.py
+                codePathLocal: scripts/run_dataset_eval.py
+                cpu_count: 16
+                cpu_count_logical: 28
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "1228716769280"
+                        used: "227617669120"
+                email: dhkang0428@gmail.com
+                executable: /root/miniconda3/envs/ocr/bin/python3
+                gpu: NVIDIA GeForce RTX 5090
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-dbdcee25-c123-f014-d6d0-8ab66ecc6390
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-1c33d0ab-17b8-ba14-1b55-e89d7e8aabd2
+                host: dhkang0428
+                memory:
+                    total: "119283679232"
+                os: Linux-6.14.0-35-generic-x86_64-with-glibc2.39
+                program: /root/OCR_route/OCR-route/scripts/run_dataset_eval.py
+                python: CPython 3.10.19
+                root: /root/OCR_route/OCR-route
+                startedAt: "2025-11-19T10:15:06.653743Z"
+                writerId: nvhx3vggco5vfvnyp6us2omr79xhzro2
+        m: []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 51
+                - 71
+            "2":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 51
+                - 71
+            "3":
+                - 15
+            "4": 3.10.19
+            "5": 0.22.3
+            "6": 4.57.1
+            "12": 0.22.3
+            "13": linux-x86_64

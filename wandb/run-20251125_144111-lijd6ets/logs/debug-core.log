@@ -1,0 +1,15 @@
+{"time":"2025-11-25T14:41:11.708978928Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpsbgmyp5b/port-265172.txt","pid":265172,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-11-25T14:41:11.709303608Z","level":"INFO","msg":"server: will exit if parent process dies","ppid":265172}
+{"time":"2025-11-25T14:41:11.709298959Z","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-265172-265369-3747543761/socket","Net":"unix"}}
+{"time":"2025-11-25T14:41:11.902397787Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-11-25T14:41:11.90538463Z","level":"INFO","msg":"handleInformInit: received","streamId":"lijd6ets","id":"1(@)"}
+{"time":"2025-11-25T14:41:12.201038412Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"lijd6ets","id":"1(@)"}
+{"time":"2025-11-25T16:10:34.125103064Z","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"1(@)"}
+{"time":"2025-11-25T16:10:34.125161052Z","level":"INFO","msg":"connection: closing","id":"1(@)"}
+{"time":"2025-11-25T16:10:34.125224592Z","level":"INFO","msg":"connection: closed successfully","id":"1(@)"}
+{"time":"2025-11-25T16:10:34.125172324Z","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-11-25T16:10:34.125345428Z","level":"INFO","msg":"server: listener closed","addr":{"Name":"/tmp/wandb-265172-265369-3747543761/socket","Net":"unix"}}
+{"time":"2025-11-25T16:10:36.134968786Z","level":"ERROR","msg":"processOutgoingData: flush error","error":"write unix /tmp/wandb-265172-265369-3747543761/socket->@: use of closed network connection","id":"1(@)"}
+{"time":"2025-11-25T16:10:36.747597446Z","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"1(@)"}
+{"time":"2025-11-25T16:10:36.747613827Z","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"1(@)"}
+{"time":"2025-11-25T16:10:36.747621472Z","level":"INFO","msg":"server is closed"}

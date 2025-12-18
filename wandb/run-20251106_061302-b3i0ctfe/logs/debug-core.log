@@ -1,0 +1,15 @@
+{"time":"2025-11-06T06:13:02.812872135Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmp_dvfcwrm/port-224613.txt","pid":224613,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-11-06T06:13:02.813197545Z","level":"INFO","msg":"server: will exit if parent process dies","ppid":224613}
+{"time":"2025-11-06T06:13:02.813192025Z","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-224613-224781-2541702951/socket","Net":"unix"}}
+{"time":"2025-11-06T06:13:03.006201641Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-11-06T06:13:03.009444505Z","level":"INFO","msg":"handleInformInit: received","streamId":"b3i0ctfe","id":"1(@)"}
+{"time":"2025-11-06T06:13:03.323487191Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"b3i0ctfe","id":"1(@)"}
+{"time":"2025-11-06T06:45:48.783523895Z","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"1(@)"}
+{"time":"2025-11-06T06:45:48.783604717Z","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-11-06T06:45:48.783598906Z","level":"INFO","msg":"connection: closing","id":"1(@)"}
+{"time":"2025-11-06T06:45:48.783670951Z","level":"INFO","msg":"connection: closed successfully","id":"1(@)"}
+{"time":"2025-11-06T06:45:48.783730914Z","level":"INFO","msg":"server: listener closed","addr":{"Name":"/tmp/wandb-224613-224781-2541702951/socket","Net":"unix"}}
+{"time":"2025-11-06T06:45:48.934554188Z","level":"ERROR","msg":"processOutgoingData: flush error","error":"write unix /tmp/wandb-224613-224781-2541702951/socket->@: use of closed network connection","id":"1(@)"}
+{"time":"2025-11-06T06:45:50.619316259Z","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"1(@)"}
+{"time":"2025-11-06T06:45:50.619337519Z","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"1(@)"}
+{"time":"2025-11-06T06:45:50.619348059Z","level":"INFO","msg":"server is closed"}

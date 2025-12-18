@@ -1,0 +1,58 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+2025-11-03 08:37:22,249 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.412 min_margin=0.010 legacy=False dynamic=False tau_H=3.500 tau_m=-inf structured=False
+Experiment entropy_routing_default:   0%|▎                                                                                               | 1/300 [00:03<19:05,  3.83s/it]2025-11-03 08:37:23,986 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.221 min_margin=0.504 legacy=False dynamic=False tau_H=3.500 tau_m=-inf structured=False
+Experiment entropy_routing_default:   1%|▋                                                                                               | 2/300 [00:05<12:54,  2.60s/it]2025-11-03 08:37:26,223 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.156 min_margin=0.368 legacy=False dynamic=False tau_H=3.500 tau_m=-inf structured=False
+Experiment entropy_routing_default:   1%|▉                                                                                               | 3/300 [00:07<12:02,  2.43s/it]2025-11-03 08:37:27,767 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.214 min_margin=0.843 legacy=False dynamic=False tau_H=3.500 tau_m=-inf structured=False
+Experiment entropy_routing_default:   1%|█▎                                                                                              | 4/300 [00:09<10:16,  2.08s/it]2025-11-03 08:37:30,405 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.347 min_margin=0.050 legacy=False dynamic=False tau_H=3.500 tau_m=-inf structured=False
+Experiment entropy_routing_default:   2%|█▌                                                                                              | 5/300 [00:11<11:13,  2.28s/it]2025-11-03 08:37:33,731 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.410 min_margin=0.001 legacy=False dynamic=False tau_H=3.500 tau_m=-inf structured=False
+Experiment entropy_routing_default:   2%|█▉                                                                                              | 6/300 [00:15<12:55,  2.64s/it]2025-11-03 08:37:37,293 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.162 min_margin=0.166 legacy=False dynamic=False tau_H=3.500 tau_m=-inf structured=False
+Experiment entropy_routing_default:   2%|██▏                                                                                             | 7/300 [00:18<14:21,  2.94s/it]2025-11-03 08:37:38,648 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.866 min_margin=0.015 legacy=False dynamic=False tau_H=3.500 tau_m=-inf structured=False
+Experiment entropy_routing_default:   3%|██▌                                                                                             | 8/300 [00:20<11:50,  2.43s/it]2025-11-03 08:37:41,731 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.149 min_margin=0.111 legacy=False dynamic=False tau_H=3.500 tau_m=-inf structured=False
+Traceback (most recent call last):                                                                                                                                       
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 987, in <module>
+    main()
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 963, in main
+    summary = run_experiment(
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 721, in run_experiment
+    routed_result = pipeline.run(image=image_source, question=question)
+  File "/root/OCR_route/OCR-route/ocr_route/main.py", line 28, in run
+    return route(
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 227, in route
+    first_pass = _run_pass(
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 147, in _run_pass
+    result = generate(model, processor, inputs, config=generation_cfg)
+  File "/root/OCR_route/OCR-route/ocr_route/inference.py", line 65, in generate
+    outputs = model.generate(**model_inputs, **generation_kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2564, in generate
+    result = decoding_method(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2779, in _sample
+    while self._has_unfinished_sequences(this_peer_finished, synced_gpus, device=input_ids.device):
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2597, in _has_unfinished_sequences
+    elif this_peer_finished:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 987, in <module>
+    main()
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 963, in main
+    summary = run_experiment(
+  File "/root/OCR_route/OCR-route/scripts/run_dataset_eval.py", line 721, in run_experiment
+    routed_result = pipeline.run(image=image_source, question=question)
+  File "/root/OCR_route/OCR-route/ocr_route/main.py", line 28, in run
+    return route(
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 227, in route
+    first_pass = _run_pass(
+  File "/root/OCR_route/OCR-route/ocr_route/routing.py", line 147, in _run_pass
+    result = generate(model, processor, inputs, config=generation_cfg)
+  File "/root/OCR_route/OCR-route/ocr_route/inference.py", line 65, in generate
+    outputs = model.generate(**model_inputs, **generation_kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2564, in generate
+    result = decoding_method(
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2779, in _sample
+    while self._has_unfinished_sequences(this_peer_finished, synced_gpus, device=input_ids.device):
+  File "/root/miniconda3/envs/ocr/lib/python3.10/site-packages/transformers/generation/utils.py", line 2597, in _has_unfinished_sequences
+    elif this_peer_finished:
+KeyboardInterrupt

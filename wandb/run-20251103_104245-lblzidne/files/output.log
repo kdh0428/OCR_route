@@ -1,0 +1,2962 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+2025-11-03 10:42:49,368 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.412 min_margin=0.010 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:42:49,369 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:42:49,397 | INFO | ocr_route.ocr_engines | Initializing EasyOCR (gpu=True)
+2025-11-03 10:42:50,361 | INFO | ocr_route.routing | OCR text length: 130
+2025-11-03 10:42:52,882 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:   0%|▎                                                                                               | 1/300 [00:07<36:33,  7.34s/it]2025-11-03 10:42:54,641 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.221 min_margin=0.504 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   1%|▋                                                                                               | 2/300 [00:09<20:08,  4.05s/it]2025-11-03 10:42:56,879 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.156 min_margin=0.368 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   1%|▉                                                                                               | 3/300 [00:11<15:58,  3.23s/it]2025-11-03 10:42:58,456 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.214 min_margin=0.843 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   1%|█▎                                                                                              | 4/300 [00:12<12:41,  2.57s/it]2025-11-03 10:43:01,123 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.347 min_margin=0.050 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   2%|█▌                                                                                              | 5/300 [00:15<12:49,  2.61s/it]2025-11-03 10:43:04,474 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.410 min_margin=0.001 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   2%|█▉                                                                                              | 6/300 [00:18<14:01,  2.86s/it]2025-11-03 10:43:08,039 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.162 min_margin=0.166 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   2%|██▏                                                                                             | 7/300 [00:22<15:05,  3.09s/it]2025-11-03 10:43:09,396 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.866 min_margin=0.015 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:43:09,397 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:43:09,469 | INFO | ocr_route.routing | OCR text length: 90
+2025-11-03 10:43:10,127 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:   3%|██▌                                                                                             | 8/300 [00:24<13:29,  2.77s/it]2025-11-03 10:43:13,218 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.149 min_margin=0.111 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   3%|██▉                                                                                             | 9/300 [00:27<13:55,  2.87s/it]2025-11-03 10:43:16,762 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.303 min_margin=0.019 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   3%|███▏                                                                                           | 10/300 [00:31<14:53,  3.08s/it]2025-11-03 10:43:18,195 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.227 min_margin=0.081 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   4%|███▍                                                                                           | 11/300 [00:32<12:23,  2.57s/it]2025-11-03 10:43:20,237 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.115 min_margin=1.438 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   4%|███▊                                                                                           | 12/300 [00:34<11:34,  2.41s/it]2025-11-03 10:43:22,166 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.306 min_margin=0.058 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   4%|████                                                                                           | 13/300 [00:36<10:50,  2.27s/it]2025-11-03 10:43:25,212 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.153 min_margin=0.217 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   5%|████▍                                                                                          | 14/300 [00:39<11:55,  2.50s/it]2025-11-03 10:43:27,277 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.488 min_margin=0.036 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   5%|████▊                                                                                          | 15/300 [00:41<11:15,  2.37s/it]2025-11-03 10:43:29,529 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.337 min_margin=0.400 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   5%|█████                                                                                          | 16/300 [00:43<11:03,  2.33s/it]2025-11-03 10:43:33,046 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.733 min_margin=0.037 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:43:33,046 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:43:33,125 | INFO | ocr_route.routing | OCR text length: 79
+2025-11-03 10:43:34,732 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:   6%|█████▍                                                                                         | 17/300 [00:49<15:04,  3.20s/it]2025-11-03 10:43:38,267 | INFO | ocr_route.routing | Routing decision: mean_entropy=1.036 min_margin=0.039 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:43:38,267 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:43:38,392 | INFO | ocr_route.routing | OCR text length: 170
+2025-11-03 10:43:41,427 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:   6%|█████▋                                                                                         | 18/300 [00:55<19:58,  4.25s/it]2025-11-03 10:43:43,220 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.398 min_margin=0.004 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   6%|██████                                                                                         | 19/300 [00:57<16:26,  3.51s/it]2025-11-03 10:43:46,364 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.335 min_margin=0.108 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   7%|██████▎                                                                                        | 20/300 [01:00<15:52,  3.40s/it]2025-11-03 10:43:48,704 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.220 min_margin=0.582 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   7%|██████▋                                                                                        | 21/300 [01:03<14:19,  3.08s/it]2025-11-03 10:43:51,321 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.146 min_margin=0.756 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   7%|██████▉                                                                                        | 22/300 [01:05<13:37,  2.94s/it]2025-11-03 10:43:53,073 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.451 min_margin=0.008 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   8%|███████▎                                                                                       | 23/300 [01:07<11:56,  2.59s/it]2025-11-03 10:43:55,160 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.883 min_margin=0.048 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:43:55,160 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:43:55,244 | INFO | ocr_route.routing | OCR text length: 83
+2025-11-03 10:43:57,026 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:   8%|███████▌                                                                                       | 24/300 [01:11<13:46,  3.00s/it]2025-11-03 10:43:59,078 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.136 min_margin=1.033 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   8%|███████▉                                                                                       | 25/300 [01:13<12:26,  2.71s/it]2025-11-03 10:44:01,993 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.245 min_margin=0.167 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   9%|████████▏                                                                                      | 26/300 [01:16<12:39,  2.77s/it]2025-11-03 10:44:03,941 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.282 min_margin=0.337 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   9%|████████▌                                                                                      | 27/300 [01:18<11:29,  2.53s/it]2025-11-03 10:44:07,106 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.174 min_margin=0.090 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:   9%|████████▊                                                                                      | 28/300 [01:21<12:19,  2.72s/it]2025-11-03 10:44:10,295 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.554 min_margin=0.020 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  10%|█████████▏                                                                                     | 29/300 [01:24<12:54,  2.86s/it]2025-11-03 10:44:13,806 | INFO | ocr_route.routing | Routing decision: mean_entropy=1.038 min_margin=0.032 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:44:13,806 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:44:13,913 | INFO | ocr_route.routing | OCR text length: 134
+2025-11-03 10:44:16,268 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  10%|█████████▌                                                                                     | 30/300 [01:30<17:04,  3.79s/it]2025-11-03 10:44:18,173 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.335 min_margin=0.172 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  10%|█████████▊                                                                                     | 31/300 [01:32<14:27,  3.23s/it]2025-11-03 10:44:19,677 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.414 min_margin=0.964 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  11%|██████████▏                                                                                    | 32/300 [01:34<12:06,  2.71s/it]2025-11-03 10:44:21,927 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.404 min_margin=0.038 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  11%|██████████▍                                                                                    | 33/300 [01:36<11:26,  2.57s/it]2025-11-03 10:44:25,446 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.268 min_margin=0.139 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  11%|██████████▊                                                                                    | 34/300 [01:39<12:40,  2.86s/it]2025-11-03 10:44:28,155 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.336 min_margin=0.261 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  12%|███████████                                                                                    | 35/300 [01:42<12:25,  2.81s/it]2025-11-03 10:44:30,819 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.267 min_margin=0.027 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  12%|███████████▍                                                                                   | 36/300 [01:45<12:10,  2.77s/it]2025-11-03 10:44:34,351 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.122 min_margin=0.152 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  12%|███████████▋                                                                                   | 37/300 [01:48<13:08,  3.00s/it]2025-11-03 10:44:36,381 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.278 min_margin=0.031 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  13%|████████████                                                                                   | 38/300 [01:50<11:48,  2.71s/it]2025-11-03 10:44:38,831 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.310 min_margin=0.119 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  13%|████████████▎                                                                                  | 39/300 [01:53<11:26,  2.63s/it]2025-11-03 10:44:40,415 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.609 min_margin=0.013 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  13%|████████████▋                                                                                  | 40/300 [01:54<10:02,  2.32s/it]2025-11-03 10:44:42,736 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.279 min_margin=0.262 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  14%|████████████▉                                                                                  | 41/300 [01:57<10:00,  2.32s/it]2025-11-03 10:44:44,921 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.294 min_margin=0.016 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  14%|█████████████▎                                                                                 | 42/300 [01:59<09:47,  2.28s/it]2025-11-03 10:44:48,443 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.160 min_margin=0.108 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  14%|█████████████▌                                                                                 | 43/300 [02:02<11:21,  2.65s/it]2025-11-03 10:44:50,720 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.315 min_margin=0.184 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  15%|█████████████▉                                                                                 | 44/300 [02:05<10:49,  2.54s/it]2025-11-03 10:44:52,350 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.484 min_margin=0.078 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  15%|██████████████▎                                                                                | 45/300 [02:06<09:37,  2.27s/it]2025-11-03 10:44:54,339 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.240 min_margin=0.119 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  15%|██████████████▌                                                                                | 46/300 [02:08<09:14,  2.18s/it]2025-11-03 10:44:57,857 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.273 min_margin=0.063 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  16%|██████████████▉                                                                                | 47/300 [02:12<10:53,  2.58s/it]2025-11-03 10:45:00,202 | INFO | ocr_route.routing | Routing decision: mean_entropy=1.146 min_margin=0.009 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:45:00,202 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:45:00,343 | INFO | ocr_route.routing | OCR text length: 238
+2025-11-03 10:45:03,814 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  16%|███████████████▏                                                                               | 48/300 [02:18<15:06,  3.60s/it]2025-11-03 10:45:04,949 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.417 min_margin=0.553 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  16%|███████████████▌                                                                               | 49/300 [02:19<11:57,  2.86s/it]2025-11-03 10:45:07,754 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.291 min_margin=0.412 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  17%|███████████████▊                                                                               | 50/300 [02:22<11:50,  2.84s/it]2025-11-03 10:45:08,664 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.930 min_margin=0.348 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:45:08,665 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:45:08,728 | INFO | ocr_route.routing | OCR text length: 66
+2025-11-03 10:45:10,163 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  17%|████████████████▏                                                                              | 51/300 [02:24<11:15,  2.71s/it]2025-11-03 10:45:10,878 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.972 min_margin=0.577 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:45:10,878 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:45:10,947 | INFO | ocr_route.routing | OCR text length: 81
+2025-11-03 10:45:12,629 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  17%|████████████████▍                                                                              | 52/300 [02:27<10:54,  2.64s/it]2025-11-03 10:45:14,243 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.289 min_margin=0.320 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  18%|████████████████▊                                                                              | 53/300 [02:28<09:35,  2.33s/it]2025-11-03 10:45:15,477 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.259 min_margin=0.031 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  18%|█████████████████                                                                              | 54/300 [02:29<08:12,  2.00s/it]2025-11-03 10:45:17,622 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.248 min_margin=0.027 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  18%|█████████████████▍                                                                             | 55/300 [02:32<08:20,  2.04s/it]2025-11-03 10:45:21,222 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.204 min_margin=0.195 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  19%|█████████████████▋                                                                             | 56/300 [02:35<10:13,  2.51s/it]2025-11-03 10:45:22,618 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.564 min_margin=0.125 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  19%|██████████████████                                                                             | 57/300 [02:37<08:48,  2.18s/it]2025-11-03 10:45:25,191 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.206 min_margin=0.757 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  19%|██████████████████▎                                                                            | 58/300 [02:39<09:15,  2.30s/it]2025-11-03 10:45:28,723 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.233 min_margin=0.014 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  20%|██████████████████▋                                                                            | 59/300 [02:43<10:42,  2.67s/it]2025-11-03 10:45:30,619 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.411 min_margin=0.003 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  20%|███████████████████                                                                            | 60/300 [02:45<09:44,  2.44s/it]2025-11-03 10:45:32,945 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.266 min_margin=0.138 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  20%|███████████████████▎                                                                           | 61/300 [02:47<09:34,  2.40s/it]2025-11-03 10:45:34,401 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.232 min_margin=0.728 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  21%|███████████████████▋                                                                           | 62/300 [02:48<08:23,  2.12s/it]2025-11-03 10:45:36,004 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.264 min_margin=0.422 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  21%|███████████████████▉                                                                           | 63/300 [02:50<07:45,  1.96s/it]2025-11-03 10:45:38,500 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.229 min_margin=0.035 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  21%|████████████████████▎                                                                          | 64/300 [02:52<08:21,  2.12s/it]2025-11-03 10:45:39,987 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.465 min_margin=0.210 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  22%|████████████████████▌                                                                          | 65/300 [02:54<07:34,  1.93s/it]2025-11-03 10:45:40,721 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.707 min_margin=0.583 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:45:40,721 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:45:40,770 | INFO | ocr_route.routing | OCR text length: 47
+2025-11-03 10:45:41,973 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  22%|████████████████████▉                                                                          | 66/300 [02:56<07:35,  1.95s/it]2025-11-03 10:45:44,698 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.454 min_margin=0.247 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  22%|█████████████████████▏                                                                         | 67/300 [02:59<08:28,  2.18s/it]2025-11-03 10:45:46,873 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.208 min_margin=0.734 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  23%|█████████████████████▌                                                                         | 68/300 [03:01<08:25,  2.18s/it]2025-11-03 10:45:50,431 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.325 min_margin=0.129 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  23%|█████████████████████▊                                                                         | 69/300 [03:04<09:59,  2.60s/it]2025-11-03 10:45:52,030 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.157 min_margin=0.779 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  23%|██████████████████████▏                                                                        | 70/300 [03:06<08:47,  2.29s/it]2025-11-03 10:45:54,404 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.378 min_margin=0.013 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  24%|██████████████████████▍                                                                        | 71/300 [03:08<08:51,  2.32s/it]2025-11-03 10:45:57,939 | INFO | ocr_route.routing | Routing decision: mean_entropy=1.021 min_margin=0.021 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:45:57,939 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:45:58,024 | INFO | ocr_route.routing | OCR text length: 120
+2025-11-03 10:46:00,089 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  24%|██████████████████████▊                                                                        | 72/300 [03:14<12:38,  3.33s/it]2025-11-03 10:46:03,680 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.173 min_margin=0.352 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  24%|███████████████████████                                                                        | 73/300 [03:18<12:53,  3.41s/it]2025-11-03 10:46:06,970 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.261 min_margin=0.132 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  25%|███████████████████████▍                                                                       | 74/300 [03:21<12:42,  3.37s/it]2025-11-03 10:46:09,127 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.367 min_margin=0.042 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:46:09,127 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:46:09,206 | INFO | ocr_route.routing | OCR text length: 96
+2025-11-03 10:46:11,255 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  25%|███████████████████████▊                                                                       | 75/300 [03:25<13:40,  3.65s/it]2025-11-03 10:46:13,380 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.124 min_margin=0.238 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  25%|████████████████████████                                                                       | 76/300 [03:27<11:54,  3.19s/it]2025-11-03 10:46:15,146 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.338 min_margin=0.356 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  26%|████████████████████████▍                                                                      | 77/300 [03:29<10:15,  2.76s/it]2025-11-03 10:46:17,254 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.324 min_margin=0.058 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  26%|████████████████████████▋                                                                      | 78/300 [03:31<09:29,  2.57s/it]2025-11-03 10:46:19,529 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.172 min_margin=0.530 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  26%|█████████████████████████                                                                      | 79/300 [03:33<09:07,  2.48s/it]2025-11-03 10:46:20,990 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.590 min_margin=0.006 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  27%|█████████████████████████▎                                                                     | 80/300 [03:35<07:58,  2.17s/it]2025-11-03 10:46:23,556 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.195 min_margin=0.325 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  27%|█████████████████████████▋                                                                     | 81/300 [03:38<08:21,  2.29s/it]2025-11-03 10:46:26,688 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.261 min_margin=0.062 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  27%|█████████████████████████▉                                                                     | 82/300 [03:41<09:14,  2.54s/it]2025-11-03 10:46:28,663 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.201 min_margin=0.246 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  28%|██████████████████████████▎                                                                    | 83/300 [03:43<08:34,  2.37s/it]2025-11-03 10:46:31,248 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.278 min_margin=0.075 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  28%|██████████████████████████▌                                                                    | 84/300 [03:45<08:46,  2.44s/it]2025-11-03 10:46:34,820 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.262 min_margin=0.085 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  28%|██████████████████████████▉                                                                    | 85/300 [03:49<09:57,  2.78s/it]2025-11-03 10:46:38,360 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.420 min_margin=0.030 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  29%|███████████████████████████▏                                                                   | 86/300 [03:52<10:43,  3.01s/it]2025-11-03 10:46:40,594 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.247 min_margin=0.573 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  29%|███████████████████████████▌                                                                   | 87/300 [03:55<09:50,  2.77s/it]2025-11-03 10:46:43,045 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.213 min_margin=0.229 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  29%|███████████████████████████▊                                                                   | 88/300 [03:57<09:27,  2.68s/it]2025-11-03 10:46:46,029 | INFO | ocr_route.routing | Routing decision: mean_entropy=1.102 min_margin=0.006 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:46:46,029 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:46:46,282 | INFO | ocr_route.routing | OCR text length: 85
+2025-11-03 10:46:48,481 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  30%|████████████████████████████▏                                                                  | 89/300 [04:02<12:19,  3.51s/it]2025-11-03 10:46:50,154 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.208 min_margin=0.249 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  30%|████████████████████████████▌                                                                  | 90/300 [04:04<10:20,  2.95s/it]2025-11-03 10:46:52,178 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.218 min_margin=0.864 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  30%|████████████████████████████▊                                                                  | 91/300 [04:06<09:19,  2.68s/it]2025-11-03 10:46:52,417 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.730 min_margin=1.856 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:46:52,418 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:46:52,478 | INFO | ocr_route.routing | OCR text length: 61
+2025-11-03 10:46:53,756 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  31%|█████████████████████████████▏                                                                 | 92/300 [04:08<08:08,  2.35s/it]2025-11-03 10:46:55,855 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.334 min_margin=0.771 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:46:55,855 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:46:55,906 | INFO | ocr_route.routing | OCR text length: 84
+2025-11-03 10:46:58,051 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  31%|█████████████████████████████▍                                                                 | 93/300 [04:12<10:06,  2.93s/it]2025-11-03 10:47:00,037 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.245 min_margin=0.128 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  31%|█████████████████████████████▊                                                                 | 94/300 [04:14<09:05,  2.65s/it]2025-11-03 10:47:03,570 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.203 min_margin=0.173 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  32%|██████████████████████████████                                                                 | 95/300 [04:18<09:57,  2.91s/it]2025-11-03 10:47:05,144 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.699 min_margin=0.011 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:47:05,144 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:47:05,254 | INFO | ocr_route.routing | OCR text length: 119
+2025-11-03 10:47:07,842 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  32%|██████████████████████████████▍                                                                | 96/300 [04:22<11:17,  3.32s/it]2025-11-03 10:47:09,482 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.478 min_margin=0.023 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  32%|██████████████████████████████▋                                                                | 97/300 [04:23<09:31,  2.82s/it]2025-11-03 10:47:12,457 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.785 min_margin=0.022 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:47:12,457 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:47:12,526 | INFO | ocr_route.routing | OCR text length: 106
+2025-11-03 10:47:14,634 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  33%|███████████████████████████████                                                                | 98/300 [04:29<11:50,  3.52s/it]2025-11-03 10:47:18,206 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.720 min_margin=0.100 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:47:18,206 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:47:18,539 | INFO | ocr_route.routing | OCR text length: 311
+2025-11-03 10:47:22,075 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  33%|███████████████████████████████▎                                                               | 99/300 [04:36<15:43,  4.69s/it]2025-11-03 10:47:25,651 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.211 min_margin=0.147 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  33%|███████████████████████████████▎                                                              | 100/300 [04:40<14:32,  4.36s/it]2025-11-03 10:47:29,179 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.224 min_margin=0.277 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  34%|███████████████████████████████▋                                                              | 101/300 [04:43<13:39,  4.12s/it]2025-11-03 10:47:32,729 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.476 min_margin=0.032 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  34%|███████████████████████████████▉                                                              | 102/300 [04:47<13:01,  3.95s/it]2025-11-03 10:47:36,307 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.223 min_margin=0.444 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  34%|████████████████████████████████▎                                                             | 103/300 [04:50<12:37,  3.85s/it]2025-11-03 10:47:39,919 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.388 min_margin=0.045 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  35%|████████████████████████████████▌                                                             | 104/300 [04:54<12:19,  3.78s/it]2025-11-03 10:47:43,496 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.343 min_margin=0.187 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  35%|████████████████████████████████▉                                                             | 105/300 [04:57<12:02,  3.71s/it]2025-11-03 10:47:47,056 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.210 min_margin=0.052 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  35%|█████████████████████████████████▏                                                            | 106/300 [05:01<11:51,  3.67s/it]2025-11-03 10:47:50,682 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.292 min_margin=0.105 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  36%|█████████████████████████████████▌                                                            | 107/300 [05:05<11:46,  3.66s/it]2025-11-03 10:47:54,276 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.445 min_margin=0.013 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  36%|█████████████████████████████████▊                                                            | 108/300 [05:08<11:38,  3.64s/it]2025-11-03 10:47:57,852 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.379 min_margin=0.147 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  36%|██████████████████████████████████▏                                                           | 109/300 [05:12<11:29,  3.61s/it]2025-11-03 10:48:01,394 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.108 min_margin=1.109 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  37%|██████████████████████████████████▍                                                           | 110/300 [05:15<11:21,  3.59s/it]2025-11-03 10:48:04,948 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.156 min_margin=0.047 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  37%|██████████████████████████████████▊                                                           | 111/300 [05:19<11:16,  3.58s/it]2025-11-03 10:48:08,486 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.228 min_margin=0.011 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  37%|███████████████████████████████████                                                           | 112/300 [05:22<11:11,  3.57s/it]2025-11-03 10:48:12,077 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.091 min_margin=1.077 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  38%|███████████████████████████████████▍                                                          | 113/300 [05:26<11:08,  3.57s/it]2025-11-03 10:48:15,654 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.192 min_margin=1.082 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  38%|███████████████████████████████████▋                                                          | 114/300 [05:30<11:04,  3.57s/it]2025-11-03 10:48:19,196 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.138 min_margin=0.439 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  38%|████████████████████████████████████                                                          | 115/300 [05:33<10:59,  3.57s/it]2025-11-03 10:48:22,745 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.266 min_margin=0.185 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  39%|████████████████████████████████████▎                                                         | 116/300 [05:37<10:55,  3.56s/it]2025-11-03 10:48:26,316 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.332 min_margin=0.257 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  39%|████████████████████████████████████▋                                                         | 117/300 [05:40<10:52,  3.57s/it]2025-11-03 10:48:29,878 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.264 min_margin=0.034 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  39%|████████████████████████████████████▉                                                         | 118/300 [05:44<10:48,  3.56s/it]2025-11-03 10:48:33,433 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.197 min_margin=0.018 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  40%|█████████████████████████████████████▎                                                        | 119/300 [05:47<10:44,  3.56s/it]2025-11-03 10:48:36,994 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.227 min_margin=0.123 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  40%|█████████████████████████████████████▌                                                        | 120/300 [05:51<10:40,  3.56s/it]2025-11-03 10:48:40,536 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.303 min_margin=0.007 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  40%|█████████████████████████████████████▉                                                        | 121/300 [05:55<10:37,  3.56s/it]2025-11-03 10:48:44,111 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.382 min_margin=0.012 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  41%|██████████████████████████████████████▏                                                       | 122/300 [05:58<10:33,  3.56s/it]2025-11-03 10:48:46,961 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.334 min_margin=0.205 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:48:46,962 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:48:47,817 | INFO | ocr_route.routing | OCR text length: 518
+2025-11-03 10:48:50,779 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  41%|██████████████████████████████████████▌                                                       | 123/300 [06:05<13:14,  4.49s/it]2025-11-03 10:48:54,329 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.229 min_margin=0.567 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  41%|██████████████████████████████████████▊                                                       | 124/300 [06:08<12:20,  4.21s/it]2025-11-03 10:48:57,868 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.228 min_margin=0.136 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  42%|███████████████████████████████████████▏                                                      | 125/300 [06:12<11:41,  4.01s/it]2025-11-03 10:49:01,409 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.248 min_margin=0.187 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:49:01,409 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:49:01,887 | INFO | ocr_route.routing | OCR text length: 912
+2025-11-03 10:49:05,671 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  42%|███████████████████████████████████████▍                                                      | 126/300 [06:20<14:56,  5.15s/it]2025-11-03 10:49:06,952 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.625 min_margin=0.028 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  42%|███████████████████████████████████████▊                                                      | 127/300 [06:21<11:28,  3.98s/it]2025-11-03 10:49:10,474 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.232 min_margin=0.157 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  43%|████████████████████████████████████████                                                      | 128/300 [06:24<11:02,  3.85s/it]2025-11-03 10:49:14,011 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.387 min_margin=0.084 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  43%|████████████████████████████████████████▍                                                     | 129/300 [06:28<10:42,  3.76s/it]2025-11-03 10:49:17,567 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.310 min_margin=0.127 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  43%|████████████████████████████████████████▋                                                     | 130/300 [06:32<10:30,  3.71s/it]2025-11-03 10:49:21,163 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.100 min_margin=0.464 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=True
+2025-11-03 10:49:21,163 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:49:21,394 | INFO | ocr_route.routing | OCR text length: 428
+2025-11-03 10:49:25,002 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  44%|█████████████████████████████████████████                                                     | 131/300 [06:39<13:33,  4.81s/it]2025-11-03 10:49:28,543 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.438 min_margin=0.248 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  44%|█████████████████████████████████████████▎                                                    | 132/300 [06:43<12:24,  4.43s/it]2025-11-03 10:49:32,096 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.196 min_margin=0.152 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  44%|█████████████████████████████████████████▋                                                    | 133/300 [06:46<11:37,  4.17s/it]2025-11-03 10:49:35,664 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.203 min_margin=0.083 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  45%|█████████████████████████████████████████▉                                                    | 134/300 [06:50<11:01,  3.98s/it]2025-11-03 10:49:39,221 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.323 min_margin=0.022 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  45%|██████████████████████████████████████████▎                                                   | 135/300 [06:53<10:36,  3.86s/it]2025-11-03 10:49:42,767 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.298 min_margin=0.035 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  45%|██████████████████████████████████████████▌                                                   | 136/300 [06:57<10:17,  3.77s/it]2025-11-03 10:49:46,072 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.394 min_margin=0.052 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:49:46,072 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:49:46,351 | INFO | ocr_route.routing | OCR text length: 247
+2025-11-03 10:49:49,885 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  46%|██████████████████████████████████████████▉                                                   | 137/300 [07:04<12:56,  4.77s/it]2025-11-03 10:49:53,447 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.492 min_margin=0.134 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  46%|███████████████████████████████████████████▏                                                  | 138/300 [07:07<11:55,  4.42s/it]2025-11-03 10:49:57,027 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.209 min_margin=0.028 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=True
+2025-11-03 10:49:57,027 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:49:57,252 | INFO | ocr_route.routing | OCR text length: 388
+2025-11-03 10:50:00,866 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  46%|███████████████████████████████████████████▌                                                  | 139/300 [07:15<14:14,  5.31s/it]2025-11-03 10:50:04,415 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.231 min_margin=0.159 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  47%|███████████████████████████████████████████▊                                                  | 140/300 [07:18<12:44,  4.78s/it]2025-11-03 10:50:07,961 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.500 min_margin=0.047 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:50:07,961 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:50:08,675 | INFO | ocr_route.routing | OCR text length: 1067
+2025-11-03 10:50:12,437 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  47%|████████████████████████████████████████████▏                                                 | 141/300 [07:26<15:17,  5.77s/it]2025-11-03 10:50:16,043 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.234 min_margin=0.476 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  47%|████████████████████████████████████████████▍                                                 | 142/300 [07:30<13:28,  5.11s/it]2025-11-03 10:50:19,627 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.307 min_margin=0.236 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  48%|████████████████████████████████████████████▊                                                 | 143/300 [07:34<12:10,  4.65s/it]2025-11-03 10:50:23,205 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.585 min_margin=0.032 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  48%|█████████████████████████████████████████████                                                 | 144/300 [07:37<11:15,  4.33s/it]2025-11-03 10:50:26,770 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.293 min_margin=0.077 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  48%|█████████████████████████████████████████████▍                                                | 145/300 [07:41<10:37,  4.11s/it]2025-11-03 10:50:30,376 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.301 min_margin=0.024 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:50:30,376 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:50:32,671 | INFO | ocr_route.routing | OCR text length: 2051
+2025-11-03 10:50:36,710 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  49%|█████████████████████████████████████████████▋                                                | 146/300 [07:51<15:03,  5.87s/it]2025-11-03 10:50:40,339 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.336 min_margin=0.219 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  49%|██████████████████████████████████████████████                                                | 147/300 [07:54<13:16,  5.20s/it]2025-11-03 10:50:43,982 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.480 min_margin=0.023 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  49%|██████████████████████████████████████████████▎                                               | 148/300 [07:58<11:58,  4.73s/it]2025-11-03 10:50:47,601 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.340 min_margin=0.008 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  50%|██████████████████████████████████████████████▋                                               | 149/300 [08:02<11:01,  4.38s/it]2025-11-03 10:50:51,216 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.101 min_margin=0.103 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  50%|███████████████████████████████████████████████                                               | 150/300 [08:05<10:23,  4.16s/it]2025-11-03 10:50:53,546 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.495 min_margin=0.175 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  50%|███████████████████████████████████████████████▎                                              | 151/300 [08:08<08:54,  3.59s/it]2025-11-03 10:50:56,497 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.174 min_margin=0.159 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  51%|███████████████████████████████████████████████▋                                              | 152/300 [08:10<08:23,  3.40s/it]2025-11-03 10:50:59,439 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.235 min_margin=0.120 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  51%|███████████████████████████████████████████████▉                                              | 153/300 [08:13<07:59,  3.26s/it]2025-11-03 10:51:02,211 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.201 min_margin=1.418 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  51%|████████████████████████████████████████████████▎                                             | 154/300 [08:16<07:34,  3.11s/it]2025-11-03 10:51:05,010 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.308 min_margin=0.047 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  52%|████████████████████████████████████████████████▌                                             | 155/300 [08:19<07:17,  3.02s/it]2025-11-03 10:51:05,582 | INFO | ocr_route.routing | Routing decision: mean_entropy=3.995 min_margin=2.860 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:51:05,582 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:51:05,743 | INFO | ocr_route.routing | OCR text length: 0
+2025-11-03 10:51:06,297 | INFO | ocr_route.routing | First pass retained after comparing uncertainty metrics.
+Experiment entropy_routing_default:  52%|████████████████████████████████████████████████▉                                             | 156/300 [08:20<05:59,  2.50s/it]2025-11-03 10:51:08,636 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.322 min_margin=0.176 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  52%|█████████████████████████████████████████████████▏                                            | 157/300 [08:23<05:50,  2.45s/it]2025-11-03 10:51:11,065 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.350 min_margin=0.359 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  53%|█████████████████████████████████████████████████▌                                            | 158/300 [08:25<05:47,  2.45s/it]2025-11-03 10:51:14,174 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.426 min_margin=0.104 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  53%|█████████████████████████████████████████████████▊                                            | 159/300 [08:28<06:13,  2.65s/it]2025-11-03 10:51:16,469 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.619 min_margin=0.043 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  53%|██████████████████████████████████████████████████▏                                           | 160/300 [08:30<05:55,  2.54s/it]2025-11-03 10:51:18,591 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.621 min_margin=0.123 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  54%|██████████████████████████████████████████████████▍                                           | 161/300 [08:33<05:35,  2.41s/it]2025-11-03 10:51:21,613 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.210 min_margin=0.416 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  54%|██████████████████████████████████████████████████▊                                           | 162/300 [08:36<05:58,  2.60s/it]2025-11-03 10:51:24,029 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.074 min_margin=0.428 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  54%|███████████████████████████████████████████████████                                           | 163/300 [08:38<05:48,  2.54s/it]2025-11-03 10:51:26,349 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.611 min_margin=0.339 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:51:26,350 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:51:26,940 | INFO | ocr_route.routing | OCR text length: 284
+2025-11-03 10:51:29,385 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  55%|███████████████████████████████████████████████████▍                                          | 164/300 [08:43<07:40,  3.39s/it]2025-11-03 10:51:31,760 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.191 min_margin=0.311 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  55%|███████████████████████████████████████████████████▋                                          | 165/300 [08:46<06:56,  3.08s/it]2025-11-03 10:51:34,176 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.248 min_margin=0.350 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  55%|████████████████████████████████████████████████████                                          | 166/300 [08:48<06:26,  2.88s/it]2025-11-03 10:51:36,867 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.089 min_margin=0.741 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  56%|████████████████████████████████████████████████████▎                                         | 167/300 [08:51<06:15,  2.83s/it]2025-11-03 10:51:39,969 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.090 min_margin=1.032 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  56%|████████████████████████████████████████████████████▋                                         | 168/300 [08:54<06:24,  2.91s/it]2025-11-03 10:51:42,198 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.162 min_margin=0.035 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  56%|████████████████████████████████████████████████████▉                                         | 169/300 [08:56<05:54,  2.70s/it]2025-11-03 10:51:45,153 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.122 min_margin=0.453 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  57%|█████████████████████████████████████████████████████▎                                        | 170/300 [08:59<06:01,  2.78s/it]2025-11-03 10:51:47,546 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.313 min_margin=0.640 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  57%|█████████████████████████████████████████████████████▌                                        | 171/300 [09:02<05:43,  2.66s/it]2025-11-03 10:51:50,099 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.308 min_margin=0.338 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  57%|█████████████████████████████████████████████████████▉                                        | 172/300 [09:04<05:36,  2.63s/it]2025-11-03 10:51:52,917 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.124 min_margin=0.163 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  58%|██████████████████████████████████████████████████████▏                                       | 173/300 [09:07<05:41,  2.69s/it]2025-11-03 10:51:55,772 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.297 min_margin=0.010 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  58%|██████████████████████████████████████████████████████▌                                       | 174/300 [09:10<05:44,  2.74s/it]2025-11-03 10:51:58,306 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.441 min_margin=0.026 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  58%|██████████████████████████████████████████████████████▊                                       | 175/300 [09:12<05:34,  2.68s/it]2025-11-03 10:52:00,715 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.507 min_margin=0.561 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  59%|███████████████████████████████████████████████████████▏                                      | 176/300 [09:15<05:21,  2.60s/it]2025-11-03 10:52:02,941 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.556 min_margin=0.812 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  59%|███████████████████████████████████████████████████████▍                                      | 177/300 [09:17<05:05,  2.48s/it]2025-11-03 10:52:05,264 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.200 min_margin=0.235 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  59%|███████████████████████████████████████████████████████▊                                      | 178/300 [09:19<04:57,  2.44s/it]2025-11-03 10:52:08,013 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.134 min_margin=0.205 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  60%|████████████████████████████████████████████████████████                                      | 179/300 [09:22<05:06,  2.53s/it]2025-11-03 10:52:10,954 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.187 min_margin=0.129 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  60%|████████████████████████████████████████████████████████▍                                     | 180/300 [09:25<05:18,  2.65s/it]2025-11-03 10:52:13,705 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.150 min_margin=0.406 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  60%|████████████████████████████████████████████████████████▋                                     | 181/300 [09:28<05:19,  2.68s/it]2025-11-03 10:52:16,624 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.225 min_margin=0.747 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  61%|█████████████████████████████████████████████████████████                                     | 182/300 [09:31<05:24,  2.75s/it]2025-11-03 10:52:19,082 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.132 min_margin=0.459 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  61%|█████████████████████████████████████████████████████████▎                                    | 183/300 [09:33<05:11,  2.66s/it]2025-11-03 10:52:21,981 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.264 min_margin=0.214 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  61%|█████████████████████████████████████████████████████████▋                                    | 184/300 [09:36<05:17,  2.73s/it]2025-11-03 10:52:24,599 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.472 min_margin=0.118 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  62%|█████████████████████████████████████████████████████████▉                                    | 185/300 [09:39<05:10,  2.70s/it]2025-11-03 10:52:26,738 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.431 min_margin=0.070 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  62%|██████████████████████████████████████████████████████████▎                                   | 186/300 [09:41<04:48,  2.53s/it]2025-11-03 10:52:29,102 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.339 min_margin=0.070 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  62%|██████████████████████████████████████████████████████████▌                                   | 187/300 [09:43<04:40,  2.48s/it]2025-11-03 10:52:31,389 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.133 min_margin=0.676 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  63%|██████████████████████████████████████████████████████████▉                                   | 188/300 [09:45<04:31,  2.42s/it]2025-11-03 10:52:33,692 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.157 min_margin=0.976 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  63%|███████████████████████████████████████████████████████████▏                                  | 189/300 [09:48<04:24,  2.39s/it]2025-11-03 10:52:35,719 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.244 min_margin=0.950 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  63%|███████████████████████████████████████████████████████████▌                                  | 190/300 [09:50<04:10,  2.28s/it]2025-11-03 10:52:38,509 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.119 min_margin=0.340 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  64%|███████████████████████████████████████████████████████████▊                                  | 191/300 [09:52<04:25,  2.43s/it]2025-11-03 10:52:40,630 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.295 min_margin=0.124 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  64%|████████████████████████████████████████████████████████████▏                                 | 192/300 [09:55<04:12,  2.34s/it]2025-11-03 10:52:43,441 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.259 min_margin=0.025 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  64%|████████████████████████████████████████████████████████████▍                                 | 193/300 [09:57<04:25,  2.48s/it]2025-11-03 10:52:45,525 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.149 min_margin=1.385 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  65%|████████████████████████████████████████████████████████████▊                                 | 194/300 [09:59<04:10,  2.36s/it]2025-11-03 10:52:47,583 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.368 min_margin=0.067 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  65%|█████████████████████████████████████████████████████████████                                 | 195/300 [10:02<03:58,  2.27s/it]2025-11-03 10:52:49,788 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.197 min_margin=0.393 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  65%|█████████████████████████████████████████████████████████████▍                                | 196/300 [10:04<03:54,  2.25s/it]2025-11-03 10:52:52,202 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.147 min_margin=0.142 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  66%|█████████████████████████████████████████████████████████████▋                                | 197/300 [10:06<03:56,  2.30s/it]2025-11-03 10:52:54,553 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.233 min_margin=0.658 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  66%|██████████████████████████████████████████████████████████████                                | 198/300 [10:09<03:56,  2.32s/it]2025-11-03 10:52:57,240 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.214 min_margin=0.442 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  66%|██████████████████████████████████████████████████████████████▎                               | 199/300 [10:11<04:05,  2.43s/it]2025-11-03 10:52:59,668 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.137 min_margin=0.023 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  67%|██████████████████████████████████████████████████████████████▋                               | 200/300 [10:14<04:02,  2.43s/it]2025-11-03 10:53:03,208 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.675 min_margin=0.045 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  67%|██████████████████████████████████████████████████████████████▉                               | 201/300 [10:17<04:33,  2.76s/it]2025-11-03 10:53:05,172 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.515 min_margin=0.409 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  67%|███████████████████████████████████████████████████████████████▎                              | 202/300 [10:19<04:06,  2.52s/it]2025-11-03 10:53:08,535 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.947 min_margin=0.014 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:53:08,535 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:53:08,748 | INFO | ocr_route.routing | OCR text length: 65
+2025-11-03 10:53:12,151 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  68%|███████████████████████████████████████████████████████████████▌                              | 203/300 [10:26<06:14,  3.86s/it]2025-11-03 10:53:15,668 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.280 min_margin=0.404 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  68%|███████████████████████████████████████████████████████████████▉                              | 204/300 [10:30<06:00,  3.76s/it]2025-11-03 10:53:19,251 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.369 min_margin=0.192 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  68%|████████████████████████████████████████████████████████████████▏                             | 205/300 [10:33<05:51,  3.70s/it]2025-11-03 10:53:22,820 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.278 min_margin=0.029 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  69%|████████████████████████████████████████████████████████████████▌                             | 206/300 [10:37<05:44,  3.67s/it]2025-11-03 10:53:26,380 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.419 min_margin=0.021 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:53:26,380 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:53:26,786 | INFO | ocr_route.routing | OCR text length: 167
+2025-11-03 10:53:30,423 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  69%|████████████████████████████████████████████████████████████████▊                             | 207/300 [10:44<07:30,  4.84s/it]2025-11-03 10:53:34,017 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.509 min_margin=0.065 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  69%|█████████████████████████████████████████████████████████████████▏                            | 208/300 [10:48<06:51,  4.47s/it]2025-11-03 10:53:37,619 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.274 min_margin=0.043 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  70%|█████████████████████████████████████████████████████████████████▍                            | 209/300 [10:52<06:23,  4.22s/it]2025-11-03 10:53:41,237 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.322 min_margin=0.016 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  70%|█████████████████████████████████████████████████████████████████▊                            | 210/300 [10:55<06:02,  4.03s/it]2025-11-03 10:53:44,423 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.372 min_margin=0.100 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:53:44,423 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:53:45,068 | INFO | ocr_route.routing | OCR text length: 109
+2025-11-03 10:53:48,060 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  70%|██████████████████████████████████████████████████████████████████                            | 211/300 [11:02<07:13,  4.87s/it]2025-11-03 10:53:51,607 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.386 min_margin=0.021 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  71%|██████████████████████████████████████████████████████████████████▍                           | 212/300 [11:06<06:33,  4.47s/it]2025-11-03 10:53:55,140 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.244 min_margin=0.577 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  71%|██████████████████████████████████████████████████████████████████▋                           | 213/300 [11:09<06:04,  4.19s/it]2025-11-03 10:53:58,673 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.432 min_margin=0.130 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  71%|███████████████████████████████████████████████████████████████████                           | 214/300 [11:13<05:43,  3.99s/it]2025-11-03 10:54:02,280 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.366 min_margin=0.042 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  72%|███████████████████████████████████████████████████████████████████▎                          | 215/300 [11:16<05:30,  3.88s/it]2025-11-03 10:54:05,822 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.752 min_margin=0.028 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:54:05,822 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:54:06,480 | INFO | ocr_route.routing | OCR text length: 432
+2025-11-03 10:54:10,186 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  72%|███████████████████████████████████████████████████████████████████▋                          | 216/300 [11:24<07:07,  5.09s/it]2025-11-03 10:54:13,858 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.758 min_margin=0.032 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:54:13,858 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:54:14,744 | INFO | ocr_route.routing | OCR text length: 532
+2025-11-03 10:54:18,585 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  72%|███████████████████████████████████████████████████████████████████▉                          | 217/300 [11:33<08:24,  6.08s/it]2025-11-03 10:54:22,114 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.465 min_margin=0.209 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  73%|████████████████████████████████████████████████████████████████████▎                         | 218/300 [11:36<07:15,  5.31s/it]2025-11-03 10:54:25,725 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.471 min_margin=0.108 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  73%|████████████████████████████████████████████████████████████████████▌                         | 219/300 [11:40<06:28,  4.80s/it]2025-11-03 10:54:29,337 | INFO | ocr_route.routing | Routing decision: mean_entropy=1.243 min_margin=0.044 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:54:29,337 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:54:32,150 | INFO | ocr_route.routing | OCR text length: 2449
+2025-11-03 10:54:36,287 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  73%|████████████████████████████████████████████████████████████████████▉                         | 220/300 [11:50<08:44,  6.56s/it]2025-11-03 10:54:38,967 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.421 min_margin=0.176 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  74%|█████████████████████████████████████████████████████████████████████▏                        | 221/300 [11:53<07:03,  5.36s/it]2025-11-03 10:54:42,635 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.163 min_margin=0.284 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  74%|█████████████████████████████████████████████████████████████████████▌                        | 222/300 [11:57<06:18,  4.86s/it]2025-11-03 10:54:46,167 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.335 min_margin=0.092 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  74%|█████████████████████████████████████████████████████████████████████▊                        | 223/300 [12:00<05:43,  4.46s/it]2025-11-03 10:54:49,747 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.161 min_margin=0.246 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  75%|██████████████████████████████████████████████████████████████████████▏                       | 224/300 [12:04<05:19,  4.20s/it]2025-11-03 10:54:50,287 | INFO | ocr_route.routing | Routing decision: mean_entropy=4.951 min_margin=0.254 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:54:50,287 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:54:52,067 | INFO | ocr_route.routing | OCR text length: 225
+2025-11-03 10:54:52,655 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  75%|██████████████████████████████████████████████████████████████████████▌                       | 225/300 [12:07<04:45,  3.81s/it]2025-11-03 10:54:56,247 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.598 min_margin=0.075 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:54:56,247 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:54:56,963 | INFO | ocr_route.routing | OCR text length: 274
+2025-11-03 10:55:00,673 | INFO | ocr_route.routing | First pass retained after comparing uncertainty metrics.
+Experiment entropy_routing_default:  75%|██████████████████████████████████████████████████████████████████████▊                       | 226/300 [12:15<06:15,  5.07s/it]2025-11-03 10:55:03,853 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.520 min_margin=0.025 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  76%|███████████████████████████████████████████████████████████████████████▏                      | 227/300 [12:18<05:28,  4.50s/it]2025-11-03 10:55:05,571 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.896 min_margin=0.045 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:55:05,571 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:55:05,951 | INFO | ocr_route.routing | OCR text length: 17
+2025-11-03 10:55:07,603 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  76%|███████████████████████████████████████████████████████████████████████▍                      | 228/300 [12:22<05:07,  4.28s/it]2025-11-03 10:55:11,162 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.747 min_margin=0.135 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:55:11,162 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:55:11,751 | INFO | ocr_route.routing | OCR text length: 282
+2025-11-03 10:55:15,411 | INFO | ocr_route.routing | First pass retained after comparing uncertainty metrics.
+Experiment entropy_routing_default:  76%|███████████████████████████████████████████████████████████████████████▊                      | 229/300 [12:29<06:18,  5.34s/it]2025-11-03 10:55:18,970 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.220 min_margin=0.163 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  77%|████████████████████████████████████████████████████████████████████████                      | 230/300 [12:33<05:36,  4.80s/it]2025-11-03 10:55:22,593 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.201 min_margin=0.951 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  77%|████████████████████████████████████████████████████████████████████████▍                     | 231/300 [12:37<05:06,  4.45s/it]2025-11-03 10:55:25,893 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.330 min_margin=0.324 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  77%|████████████████████████████████████████████████████████████████████████▋                     | 232/300 [12:40<04:39,  4.10s/it]2025-11-03 10:55:29,451 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.179 min_margin=0.151 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  78%|█████████████████████████████████████████████████████████████████████████                     | 233/300 [12:43<04:24,  3.94s/it]2025-11-03 10:55:32,966 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.167 min_margin=0.611 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  78%|█████████████████████████████████████████████████████████████████████████▎                    | 234/300 [12:47<04:12,  3.82s/it]2025-11-03 10:55:36,557 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.374 min_margin=0.025 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  78%|█████████████████████████████████████████████████████████████████████████▋                    | 235/300 [12:51<04:03,  3.75s/it]2025-11-03 10:55:40,094 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.354 min_margin=0.002 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  79%|█████████████████████████████████████████████████████████████████████████▉                    | 236/300 [12:54<03:55,  3.68s/it]2025-11-03 10:55:43,625 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.244 min_margin=0.217 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  79%|██████████████████████████████████████████████████████████████████████████▎                   | 237/300 [12:58<03:49,  3.64s/it]2025-11-03 10:55:47,159 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.477 min_margin=0.246 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  79%|██████████████████████████████████████████████████████████████████████████▌                   | 238/300 [13:01<03:43,  3.60s/it]2025-11-03 10:55:50,698 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.399 min_margin=0.191 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  80%|██████████████████████████████████████████████████████████████████████████▉                   | 239/300 [13:05<03:38,  3.59s/it]2025-11-03 10:55:54,275 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.456 min_margin=0.031 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  80%|███████████████████████████████████████████████████████████████████████████▏                  | 240/300 [13:08<03:34,  3.58s/it]2025-11-03 10:55:57,806 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.433 min_margin=0.046 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:55:57,807 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:55:58,359 | INFO | ocr_route.routing | OCR text length: 519
+2025-11-03 10:56:02,159 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  80%|███████████████████████████████████████████████████████████████████████████▌                  | 241/300 [13:16<04:47,  4.88s/it]2025-11-03 10:56:05,700 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.459 min_margin=0.112 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  81%|███████████████████████████████████████████████████████████████████████████▊                  | 242/300 [13:20<04:19,  4.47s/it]2025-11-03 10:56:09,236 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.575 min_margin=0.001 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  81%|████████████████████████████████████████████████████████████████████████████▏                 | 243/300 [13:23<03:58,  4.19s/it]2025-11-03 10:56:12,820 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.328 min_margin=0.104 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  81%|████████████████████████████████████████████████████████████████████████████▍                 | 244/300 [13:27<03:44,  4.01s/it]2025-11-03 10:56:15,235 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.603 min_margin=0.105 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:56:15,236 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:56:15,607 | INFO | ocr_route.routing | OCR text length: 137
+2025-11-03 10:56:19,215 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  82%|████████████████████████████████████████████████████████████████████████████▊                 | 245/300 [13:33<04:19,  4.72s/it]2025-11-03 10:56:22,733 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.400 min_margin=0.053 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:56:22,734 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:56:23,146 | INFO | ocr_route.routing | OCR text length: 138
+2025-11-03 10:56:24,908 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  82%|█████████████████████████████████████████████████████████████████████████████                 | 246/300 [13:39<04:30,  5.01s/it]2025-11-03 10:56:28,430 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.422 min_margin=0.240 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  82%|█████████████████████████████████████████████████████████████████████████████▍                | 247/300 [13:42<04:02,  4.57s/it]2025-11-03 10:56:31,862 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.262 min_margin=0.209 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  83%|█████████████████████████████████████████████████████████████████████████████▋                | 248/300 [13:46<03:39,  4.23s/it]2025-11-03 10:56:35,386 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.340 min_margin=0.034 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  83%|██████████████████████████████████████████████████████████████████████████████                | 249/300 [13:49<03:24,  4.02s/it]2025-11-03 10:56:38,903 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.340 min_margin=0.025 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  83%|██████████████████████████████████████████████████████████████████████████████▎               | 250/300 [13:53<03:13,  3.87s/it]2025-11-03 10:56:42,462 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.245 min_margin=0.751 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  84%|██████████████████████████████████████████████████████████████████████████████▋               | 251/300 [13:56<03:05,  3.78s/it]2025-11-03 10:56:45,998 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.555 min_margin=0.053 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  84%|██████████████████████████████████████████████████████████████████████████████▉               | 252/300 [14:00<02:57,  3.70s/it]2025-11-03 10:56:49,569 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.340 min_margin=0.086 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  84%|███████████████████████████████████████████████████████████████████████████████▎              | 253/300 [14:04<02:52,  3.66s/it]2025-11-03 10:56:53,103 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.436 min_margin=0.000 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  85%|███████████████████████████████████████████████████████████████████████████████▌              | 254/300 [14:07<02:46,  3.62s/it]2025-11-03 10:56:56,632 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.366 min_margin=0.121 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  85%|███████████████████████████████████████████████████████████████████████████████▉              | 255/300 [14:11<02:41,  3.60s/it]2025-11-03 10:57:00,164 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.211 min_margin=0.064 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  85%|████████████████████████████████████████████████████████████████████████████████▏             | 256/300 [14:14<02:37,  3.58s/it]2025-11-03 10:57:03,764 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.225 min_margin=0.275 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  86%|████████████████████████████████████████████████████████████████████████████████▌             | 257/300 [14:18<02:34,  3.58s/it]2025-11-03 10:57:07,306 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.581 min_margin=0.006 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  86%|████████████████████████████████████████████████████████████████████████████████▊             | 258/300 [14:21<02:29,  3.57s/it]2025-11-03 10:57:10,835 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.302 min_margin=0.221 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  86%|█████████████████████████████████████████████████████████████████████████████████▏            | 259/300 [14:25<02:25,  3.56s/it]2025-11-03 10:57:14,367 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.314 min_margin=0.580 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  87%|█████████████████████████████████████████████████████████████████████████████████▍            | 260/300 [14:28<02:21,  3.55s/it]2025-11-03 10:57:17,893 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.166 min_margin=0.244 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  87%|█████████████████████████████████████████████████████████████████████████████████▊            | 261/300 [14:32<02:18,  3.54s/it]2025-11-03 10:57:21,416 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.212 min_margin=0.218 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  87%|██████████████████████████████████████████████████████████████████████████████████            | 262/300 [14:35<02:14,  3.54s/it]2025-11-03 10:57:23,456 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.505 min_margin=0.048 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  88%|██████████████████████████████████████████████████████████████████████████████████▍           | 263/300 [14:37<01:54,  3.09s/it]2025-11-03 10:57:25,904 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.910 min_margin=0.122 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:57:25,905 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:57:26,077 | INFO | ocr_route.routing | OCR text length: 132
+2025-11-03 10:57:28,245 | INFO | ocr_route.routing | First pass retained after comparing uncertainty metrics.
+Experiment entropy_routing_default:  88%|██████████████████████████████████████████████████████████████████████████████████▋           | 264/300 [14:42<02:09,  3.60s/it]2025-11-03 10:57:31,767 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.230 min_margin=0.588 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  88%|███████████████████████████████████████████████████████████████████████████████████           | 265/300 [14:46<02:05,  3.58s/it]2025-11-03 10:57:35,339 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.161 min_margin=0.015 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  89%|███████████████████████████████████████████████████████████████████████████████████▎          | 266/300 [14:49<02:01,  3.57s/it]2025-11-03 10:57:38,861 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.123 min_margin=0.211 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  89%|███████████████████████████████████████████████████████████████████████████████████▋          | 267/300 [14:53<01:57,  3.56s/it]2025-11-03 10:57:42,400 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.279 min_margin=0.023 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  89%|███████████████████████████████████████████████████████████████████████████████████▉          | 268/300 [14:56<01:53,  3.55s/it]2025-11-03 10:57:45,934 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.214 min_margin=0.172 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  90%|████████████████████████████████████████████████████████████████████████████████████▎         | 269/300 [15:00<01:50,  3.55s/it]2025-11-03 10:57:49,518 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.281 min_margin=0.075 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:57:49,518 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:57:50,002 | INFO | ocr_route.routing | OCR text length: 137
+2025-11-03 10:57:53,662 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  90%|████████████████████████████████████████████████████████████████████████████████████▌         | 270/300 [15:08<02:23,  4.80s/it]2025-11-03 10:57:57,188 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.162 min_margin=0.047 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  90%|████████████████████████████████████████████████████████████████████████████████████▉         | 271/300 [15:11<02:08,  4.42s/it]2025-11-03 10:58:00,709 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.330 min_margin=0.134 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  91%|█████████████████████████████████████████████████████████████████████████████████████▏        | 272/300 [15:15<01:56,  4.15s/it]2025-11-03 10:58:04,231 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.202 min_margin=0.109 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:58:04,231 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:58:04,750 | INFO | ocr_route.routing | OCR text length: 98
+2025-11-03 10:58:08,299 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  91%|█████████████████████████████████████████████████████████████████████████████████████▌        | 273/300 [15:22<02:19,  5.18s/it]2025-11-03 10:58:11,742 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.507 min_margin=0.100 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  91%|█████████████████████████████████████████████████████████████████████████████████████▊        | 274/300 [15:26<02:01,  4.66s/it]2025-11-03 10:58:14,067 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.484 min_margin=0.055 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:58:14,067 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:58:14,313 | INFO | ocr_route.routing | OCR text length: 46
+2025-11-03 10:58:16,393 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  92%|██████████████████████████████████████████████████████████████████████████████████████▏       | 275/300 [15:30<01:56,  4.66s/it]2025-11-03 10:58:19,974 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.132 min_margin=0.326 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  92%|██████████████████████████████████████████████████████████████████████████████████████▍       | 276/300 [15:34<01:44,  4.34s/it]2025-11-03 10:58:22,313 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.736 min_margin=0.032 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:58:22,313 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:58:22,523 | INFO | ocr_route.routing | OCR text length: 97
+2025-11-03 10:58:26,076 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  92%|██████████████████████████████████████████████████████████████████████████████████████▊       | 277/300 [15:40<01:51,  4.86s/it]2025-11-03 10:58:29,599 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.239 min_margin=0.314 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  93%|███████████████████████████████████████████████████████████████████████████████████████       | 278/300 [15:44<01:38,  4.46s/it]2025-11-03 10:58:33,144 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.195 min_margin=0.112 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  93%|███████████████████████████████████████████████████████████████████████████████████████▍      | 279/300 [15:47<01:27,  4.19s/it]2025-11-03 10:58:36,668 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.192 min_margin=0.274 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  93%|███████████████████████████████████████████████████████████████████████████████████████▋      | 280/300 [15:51<01:19,  3.99s/it]2025-11-03 10:58:39,854 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.474 min_margin=0.244 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  94%|████████████████████████████████████████████████████████████████████████████████████████      | 281/300 [15:54<01:11,  3.75s/it]2025-11-03 10:58:43,327 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.445 min_margin=0.005 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  94%|████████████████████████████████████████████████████████████████████████████████████████▎     | 282/300 [15:57<01:05,  3.66s/it]2025-11-03 10:58:46,864 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.708 min_margin=0.054 legacy=True dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:58:46,864 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:58:47,040 | INFO | ocr_route.routing | OCR text length: 108
+2025-11-03 10:58:50,594 | INFO | ocr_route.routing | First pass retained after comparing uncertainty metrics.
+Experiment entropy_routing_default:  94%|████████████████████████████████████████████████████████████████████████████████████████▋     | 283/300 [16:05<01:20,  4.75s/it]2025-11-03 10:58:54,173 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.197 min_margin=0.306 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  95%|████████████████████████████████████████████████████████████████████████████████████████▉     | 284/300 [16:08<01:10,  4.40s/it]2025-11-03 10:58:57,698 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.432 min_margin=0.114 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  95%|█████████████████████████████████████████████████████████████████████████████████████████▎    | 285/300 [16:12<01:02,  4.13s/it]2025-11-03 10:58:59,699 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.461 min_margin=0.200 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  95%|█████████████████████████████████████████████████████████████████████████████████████████▌    | 286/300 [16:14<00:48,  3.49s/it]2025-11-03 10:59:03,215 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.199 min_margin=0.368 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  96%|█████████████████████████████████████████████████████████████████████████████████████████▉    | 287/300 [16:17<00:45,  3.50s/it]2025-11-03 10:59:06,283 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.229 min_margin=0.550 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:59:06,283 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:59:06,818 | INFO | ocr_route.routing | OCR text length: 43
+2025-11-03 10:59:07,372 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+Experiment entropy_routing_default:  96%|██████████████████████████████████████████████████████████████████████████████████████████▏   | 288/300 [16:21<00:44,  3.70s/it]2025-11-03 10:59:10,982 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.365 min_margin=0.045 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  96%|██████████████████████████████████████████████████████████████████████████████████████████▌   | 289/300 [16:25<00:40,  3.67s/it]2025-11-03 10:59:14,512 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.251 min_margin=0.138 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  97%|██████████████████████████████████████████████████████████████████████████████████████████▊   | 290/300 [16:28<00:36,  3.63s/it]2025-11-03 10:59:18,284 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.391 min_margin=0.045 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  97%|███████████████████████████████████████████████████████████████████████████████████████████▏  | 291/300 [16:32<00:33,  3.67s/it]2025-11-03 10:59:21,925 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.616 min_margin=0.007 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  97%|███████████████████████████████████████████████████████████████████████████████████████████▍  | 292/300 [16:36<00:29,  3.67s/it]2025-11-03 10:59:25,605 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.256 min_margin=0.020 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  98%|███████████████████████████████████████████████████████████████████████████████████████████▊  | 293/300 [16:40<00:25,  3.67s/it]2025-11-03 10:59:29,236 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.301 min_margin=0.162 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  98%|████████████████████████████████████████████████████████████████████████████████████████████  | 294/300 [16:43<00:21,  3.66s/it]2025-11-03 10:59:32,772 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.253 min_margin=0.020 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  98%|████████████████████████████████████████████████████████████████████████████████████████████▍ | 295/300 [16:47<00:18,  3.62s/it]2025-11-03 10:59:36,408 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.408 min_margin=0.013 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  99%|████████████████████████████████████████████████████████████████████████████████████████████▋ | 296/300 [16:50<00:14,  3.62s/it]2025-11-03 10:59:40,059 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.314 min_margin=0.685 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  99%|█████████████████████████████████████████████████████████████████████████████████████████████ | 297/300 [16:54<00:10,  3.64s/it]2025-11-03 10:59:43,596 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.284 min_margin=0.003 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default:  99%|█████████████████████████████████████████████████████████████████████████████████████████████▎| 298/300 [16:58<00:07,  3.60s/it]2025-11-03 10:59:47,210 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.165 min_margin=0.543 legacy=False dynamic=False tau_H=0.700 tau_m=-inf structured=False
+Experiment entropy_routing_default: 100%|█████████████████████████████████████████████████████████████████████████████████████████████▋| 299/300 [17:01<00:03,  3.61s/it]2025-11-03 10:59:50,842 | INFO | ocr_route.routing | Routing decision: mean_entropy=0.602 min_margin=0.088 legacy=False dynamic=True tau_H=0.700 tau_m=-inf structured=False
+2025-11-03 10:59:50,842 | INFO | ocr_route.ocr_engines | Running OCR engine: easyocr
+2025-11-03 10:59:51,510 | INFO | ocr_route.routing | OCR text length: 235
+2025-11-03 10:59:55,218 | INFO | ocr_route.routing | Second pass selected based on uncertainty metrics.
+                                                                                                                                                                         
+{
+  "dataset": "cc-ocr",
+  "split": "test",
+  "samples_available": 2750,
+  "samples_evaluated": 300,
+  "limit": 300,
+  "output_base": "outputs/cc_ocr_results_test.jsonl",
+  "experiments": [
+    {
+      "experiment": "entropy_routing_default",
+      "description": "Entropy-only routing with CLI defaults.",
+      "total": 300,
+      "avg_metrics": {
+        "exact_match": 0.0,
+        "accuracy": 0.0,
+        "cer": 0.4695966305692434,
+        "wer": 0.6160812818087028,
+        "precision": 0.6476448337024334,
+        "recall": 0.481886219598791,
+        "f1": 0.5228894212973784,
+        "rouge_l": 0.49624367211206905
+      },
+      "ocr_call_ratio": 0.16,
+      "avg_latency_s": 3.417603333333333,
+      "ece": 0.9122447136478555,
+      "brier": 0.8364997358528125,
+      "coverage": 0.16,
+      "risk": 1.0,
+      "latency_vs_quality": [
+        {
+          "latency_s": 7.334,
+          "cer": 0.25,
+          "wer": 0.4583333333333333,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.757,
+          "cer": 0.05555555555555555,
+          "wer": 0.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.237,
+          "cer": 0.2871287128712871,
+          "wer": 0.1111111111111111,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.575,
+          "cer": 0.04225352112676056,
+          "wer": 0.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.666,
+          "cer": 0.24822695035460993,
+          "wer": 0.2608695652173913,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.349,
+          "cer": 0.24113475177304963,
+          "wer": 0.32,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.562,
+          "cer": 0.14705882352941177,
+          "wer": 0.125,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.082,
+          "cer": 0.9642857142857143,
+          "wer": 1.0,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.09,
+          "cer": 0.1218274111675127,
+          "wer": 0.19444444444444445,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.538,
+          "cer": 0.35377358490566035,
+          "wer": 0.43243243243243246,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.427,
+          "cer": 0.28,
+          "wer": 0.23076923076923078,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.041,
+          "cer": 0.043478260869565216,
+          "wer": 0.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.928,
+          "cer": 0.6015625,
+          "wer": 0.8148148148148148,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.041,
+          "cer": 0.043478260869565216,
+          "wer": 0.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.058,
+          "cer": 0.41379310344827586,
+          "wer": 0.5,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.25,
+          "cer": 0.1834862385321101,
+          "wer": 0.2222222222222222,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 5.198,
+          "cer": 0.1125,
+          "wer": 0.35714285714285715,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 6.693,
+          "cer": 0.03314917127071823,
+          "wer": 0.04,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.788,
+          "cer": 0.10743801652892562,
+          "wer": 0.2,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.142,
+          "cer": 0.25280898876404495,
+          "wer": 0.14285714285714285,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.336,
+          "cer": 0.17647058823529413,
+          "wer": 0.058823529411764705,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.613,
+          "cer": 0.05426356589147287,
+          "wer": 0.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.75,
+          "cer": 0.7751937984496124,
+          "wer": 0.8541666666666666,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.948,
+          "cer": 0.31645569620253167,
+          "wer": 0.75,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.051,
+          "cer": 0.12903225806451613,
+          "wer": 0.0625,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.911,
+          "cer": 0.06870229007633588,
+          "wer": 0.08695652173913043,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.945,
+          "cer": 0.16326530612244897,
+          "wer": 0.4,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.163,
+          "cer": 0.09615384615384616,
+          "wer": 0.20689655172413793,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.186,
+          "cer": 0.8046875,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 5.971,
+          "cer": 0.09929078014184398,
+          "wer": 0.30434782608695654,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.9,
+          "cer": 0.20588235294117646,
+          "wer": 0.2,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.502,
+          "cer": 0.3076923076923077,
+          "wer": 0.36363636363636365,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.25,
+          "cer": 0.44609665427509293,
+          "wer": 0.47058823529411764,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.513,
+          "cer": 0.4383116883116883,
+          "wer": 0.4642857142857143,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.7,
+          "cer": 0.02040816326530612,
+          "wer": 0.17391304347826086,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.66,
+          "cer": 0.15432098765432098,
+          "wer": 0.7,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.528,
+          "cer": 0.33432835820895523,
+          "wer": 0.3902439024390244,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.022,
+          "cer": 0.1,
+          "wer": 0.2,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.449,
+          "cer": 0.40217391304347827,
+          "wer": 0.43333333333333335,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.58,
+          "cer": 0.5892857142857143,
+          "wer": 0.5,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.318,
+          "cer": 0.26119402985074625,
+          "wer": 0.2962962962962963,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.18,
+          "cer": 0.16101694915254236,
+          "wer": 0.2,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.518,
+          "cer": 0.43829787234042555,
+          "wer": 0.3055555555555556,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.27,
+          "cer": 0.09917355371900827,
+          "wer": 0.05263157894736842,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.626,
+          "cer": 0.5042735042735043,
+          "wer": 0.5,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.987,
+          "cer": 0.13186813186813187,
+          "wer": 0.0625,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.517,
+          "cer": 2.0618556701030926,
+          "wer": 6.142857142857143,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 5.952,
+          "cer": 0.35555555555555557,
+          "wer": 0.6410256410256411,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.13,
+          "cer": 0.5483870967741935,
+          "wer": 0.5,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.802,
+          "cer": 0.1610738255033557,
+          "wer": 0.18518518518518517,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.403,
+          "cer": 0.06666666666666667,
+          "wer": 0.2222222222222222,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.462,
+          "cer": 0.024390243902439025,
+          "wer": 0.07142857142857142,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.611,
+          "cer": 0.22857142857142856,
+          "wer": 0.07692307692307693,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.232,
+          "cer": 0.5609756097560976,
+          "wer": 0.5,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.144,
+          "cer": 0.14150943396226415,
+          "wer": 0.21052631578947367,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.599,
+          "cer": 0.37282229965156793,
+          "wer": 0.4745762711864407,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.389,
+          "cer": 0.7383177570093458,
+          "wer": 0.75,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.573,
+          "cer": 0.05732484076433121,
+          "wer": 0.14285714285714285,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.529,
+          "cer": 0.42857142857142855,
+          "wer": 0.3333333333333333,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.89,
+          "cer": 0.345679012345679,
+          "wer": 0.3125,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.323,
+          "cer": 0.0945945945945946,
+          "wer": 0.11538461538461539,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.451,
+          "cer": 0.05,
+          "wer": 0.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.602,
+          "cer": 0.1527777777777778,
+          "wer": 0.15384615384615385,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.495,
+          "cer": 0.09482758620689655,
+          "wer": 0.10526315789473684,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.483,
+          "cer": 0.2608695652173913,
+          "wer": 0.5714285714285714,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.984,
+          "cer": 0.660377358490566,
+          "wer": 1.2222222222222223,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.725,
+          "cer": 0.13846153846153847,
+          "wer": 0.18181818181818182,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.172,
+          "cer": 0.3069306930693069,
+          "wer": 0.23529411764705882,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.557,
+          "cer": 0.5634517766497462,
+          "wer": 0.6060606060606061,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.59,
+          "cer": 0.2077922077922078,
+          "wer": 0.07692307692307693,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.373,
+          "cer": 0.43820224719101125,
+          "wer": 0.35714285714285715,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 5.681,
+          "cer": 0.168,
+          "wer": 0.5714285714285714,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.587,
+          "cer": 0.12946428571428573,
+          "wer": 0.15,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.284,
+          "cer": 0.23645320197044334,
+          "wer": 0.13513513513513514,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 4.28,
+          "cer": 0.04081632653061224,
+          "wer": 0.21052631578947367,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.121,
+          "cer": 0.13861386138613863,
+          "wer": 0.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.765,
+          "cer": 0.047619047619047616,
+          "wer": 0.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.106,
+          "cer": 0.29213483146067415,
+          "wer": 0.1875,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.273,
+          "cer": 0.013986013986013986,
+          "wer": 0.03571428571428571,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.456,
+          "cer": 0.5813953488372093,
+          "wer": 0.4666666666666667,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.565,
+          "cer": 0.16279069767441862,
+          "wer": 0.3181818181818182,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.13,
+          "cer": 0.05319148936170213,
+          "wer": 0.06666666666666667,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.968,
+          "cer": 0.05825242718446602,
+          "wer": 0.23529411764705882,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.583,
+          "cer": 0.2857142857142857,
+          "wer": 0.3333333333333333,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.57,
+          "cer": 0.43843843843843844,
+          "wer": 0.46875,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.533,
+          "cer": 1.7321428571428572,
+          "wer": 2.5,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.23,
+          "cer": 0.14150943396226415,
+          "wer": 0.3684210526315789,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.447,
+          "cer": 0.31343283582089554,
+          "wer": 0.12,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 5.433,
+          "cer": 0.5754716981132075,
+          "wer": 0.6,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.668,
+          "cer": 0.125,
+          "wer": 0.2,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.022,
+          "cer": 0.06060606060606061,
+          "wer": 0.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.578,
+          "cer": 0.35294117647058826,
+          "wer": 0.9230769230769231,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 4.293,
+          "cer": 0.25287356321839083,
+          "wer": 0.7857142857142857,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.985,
+          "cer": 0.05825242718446602,
+          "wer": 0.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.529,
+          "cer": 0.38181818181818183,
+          "wer": 0.26666666666666666,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 4.265,
+          "cer": 0.552,
+          "wer": 0.782608695652174,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.635,
+          "cer": 0.2653061224489796,
+          "wer": 0.47368421052631576,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 5.148,
+          "cer": 0.1485148514851485,
+          "wer": 0.6842105263157895,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.439,
+          "cer": 1.1493506493506493,
+          "wer": 1.2592592592592593,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.571,
+          "cer": 0.27388535031847133,
+          "wer": 0.22857142857142856,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.52,
+          "cer": 0.8408921933085501,
+          "wer": 0.8878923766816144,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.517,
+          "cer": 0.6574850299401198,
+          "wer": 0.7425149700598802,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.55,
+          "cer": 0.7154654654654654,
+          "wer": 0.7897196261682243,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.551,
+          "cer": 0.7765237020316027,
+          "wer": 0.7972972972972973,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.517,
+          "cer": 0.4947526236881559,
+          "wer": 0.5309734513274337,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.531,
+          "cer": 0.670843776106934,
+          "wer": 0.6898395721925134,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.572,
+          "cer": 0.685539403213466,
+          "wer": 0.717948717948718,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.519,
+          "cer": 0.7055921052631579,
+          "wer": 0.7631578947368421,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.522,
+          "cer": 0.4937106918238994,
+          "wer": 0.603448275862069,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.519,
+          "cer": 0.2620545073375262,
+          "wer": 0.2676056338028169,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.535,
+          "cer": 0.19594594594594594,
+          "wer": 0.36507936507936506,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.52,
+          "cer": 0.7474226804123711,
+          "wer": 0.734375,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.548,
+          "cer": 0.6625155666251556,
+          "wer": 0.7925925925925926,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.552,
+          "cer": 0.5104669887278583,
+          "wer": 0.5714285714285714,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.516,
+          "cer": 0.7936371453138436,
+          "wer": 0.8512820512820513,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.516,
+          "cer": 0.8204711616571893,
+          "wer": 0.8823529411764706,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.529,
+          "cer": 0.8744985673352436,
+          "wer": 0.8929765886287625,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.515,
+          "cer": 0.7935606060606061,
+          "wer": 1.2528735632183907,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.523,
+          "cer": 0.8026315789473685,
+          "wer": 0.8526315789473684,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.522,
+          "cer": 0.6478365384615384,
+          "wer": 0.7163120567375887,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.512,
+          "cer": 0.6778964667214462,
+          "wer": 0.69377990430622,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.522,
+          "cer": 0.8583218707015131,
+          "wer": 0.8898305084745762,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 6.628,
+          "cer": 0.8053892215568862,
+          "wer": 0.8834355828220859,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.525,
+          "cer": 0.5279106858054227,
+          "wer": 0.5714285714285714,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.518,
+          "cer": 0.24849699398797595,
+          "wer": 0.2125,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.781,
+          "cer": 0.7591836734693878,
+          "wer": 0.7922077922077922,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.245,
+          "cer": 0.3065326633165829,
+          "wer": 0.4,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.518,
+          "cer": 0.7643312101910829,
+          "wer": 0.776595744680851,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.508,
+          "cer": 0.5110803324099723,
+          "wer": 0.728,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.526,
+          "cer": 0.7223493516399695,
+          "wer": 0.7857142857142857,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.362,
+          "cer": 0.04751131221719457,
+          "wer": 0.2,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.521,
+          "cer": 0.7208436724565757,
+          "wer": 0.8029197080291971,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.522,
+          "cer": 0.40226986128625475,
+          "wer": 0.5084745762711864,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.522,
+          "cer": 0.2396694214876033,
+          "wer": 0.175,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.536,
+          "cer": 0.2810810810810811,
+          "wer": 0.4111111111111111,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.521,
+          "cer": 0.7867256637168142,
+          "wer": 0.8542713567839196,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.085,
+          "cer": 0.4258241758241758,
+          "wer": 0.48214285714285715,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.548,
+          "cer": 0.6778169014084507,
+          "wer": 0.7525773195876289,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.37,
+          "cer": 0.3995433789954338,
+          "wer": 0.4166666666666667,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.531,
+          "cer": 0.5067961165048543,
+          "wer": 0.618421052631579,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.999,
+          "cer": 0.58671875,
+          "wer": 0.6127450980392157,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.528,
+          "cer": 0.5233265720081136,
+          "wer": 0.625,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.526,
+          "cer": 0.6675675675675675,
+          "wer": 0.7272727272727273,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.529,
+          "cer": 0.7562753036437248,
+          "wer": 0.8484848484848485,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.509,
+          "cer": 0.8852672750977836,
+          "wer": 0.9294403892944039,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 9.857,
+          "cer": 0.8733812949640288,
+          "wer": 0.9061784897025171,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.512,
+          "cer": 0.6986089644513137,
+          "wer": 0.752411575562701,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.506,
+          "cer": 0.8179310344827586,
+          "wer": 0.8455056179775281,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.508,
+          "cer": 0.8157736303431667,
+          "wer": 0.8629629629629629,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.554,
+          "cer": 0.8270408163265306,
+          "wer": 0.864951768488746,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.25,
+          "cer": 0.05905511811023622,
+          "wer": 0.19230769230769232,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.943,
+          "cer": 0.051685393258426963,
+          "wer": 0.19753086419753085,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.921,
+          "cer": 0.053452115812917596,
+          "wer": 0.23170731707317074,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.751,
+          "cer": 0.02531645569620253,
+          "wer": 0.2647058823529412,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.783,
+          "cer": 0.024752475247524754,
+          "wer": 0.2236842105263158,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.27,
+          "cer": 0.7883720930232558,
+          "wer": 0.9722222222222222,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.331,
+          "cer": 0.03170028818443804,
+          "wer": 0.22727272727272727,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.416,
+          "cer": 0.018666666666666668,
+          "wer": 0.18309859154929578,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.094,
+          "cer": 0.024886877828054297,
+          "wer": 0.13793103448275862,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.275,
+          "cer": 0.01932367149758454,
+          "wer": 0.14285714285714285,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.104,
+          "cer": 0.0672782874617737,
+          "wer": 0.265625,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.011,
+          "cer": 0.022675736961451247,
+          "wer": 0.24390243902439024,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.396,
+          "cer": 0.019656019656019656,
+          "wer": 0.13333333333333333,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 5.339,
+          "cer": 0.08021390374331551,
+          "wer": 0.2916666666666667,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.361,
+          "cer": 0.025714285714285714,
+          "wer": 0.2727272727272727,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.404,
+          "cer": 0.03910614525139665,
+          "wer": 0.2916666666666667,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.677,
+          "cer": 0.034912718204488775,
+          "wer": 0.1643835616438356,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.085,
+          "cer": 0.018867924528301886,
+          "wer": 0.20202020202020202,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.2,
+          "cer": 0.019230769230769232,
+          "wer": 0.2,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.942,
+          "cer": 0.023622047244094488,
+          "wer": 0.23157894736842105,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.367,
+          "cer": 0.03626943005181347,
+          "wer": 0.2463768115942029,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.537,
+          "cer": 0.03970223325062035,
+          "wer": 0.22077922077922077,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.801,
+          "cer": 0.043795620437956206,
+          "wer": 0.2465753424657534,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.837,
+          "cer": 0.047619047619047616,
+          "wer": 0.1794871794871795,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.514,
+          "cer": 0.04639175257731959,
+          "wer": 0.25925925925925924,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.393,
+          "cer": 0.022727272727272728,
+          "wer": 0.1643835616438356,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.209,
+          "cer": 0.05660377358490566,
+          "wer": 0.19298245614035087,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.312,
+          "cer": 0.013123359580052493,
+          "wer": 0.12307692307692308,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.734,
+          "cer": 0.012121212121212121,
+          "wer": 0.1111111111111111,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.915,
+          "cer": 0.03648068669527897,
+          "wer": 0.34146341463414637,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.729,
+          "cer": 0.02252252252252252,
+          "wer": 0.24691358024691357,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.899,
+          "cer": 0.03480278422273782,
+          "wer": 0.35443037974683544,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.439,
+          "cer": 0.059154929577464786,
+          "wer": 0.29850746268656714,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.886,
+          "cer": 0.05303030303030303,
+          "wer": 0.3448275862068966,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.601,
+          "cer": 0.0790273556231003,
+          "wer": 0.44285714285714284,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.128,
+          "cer": 0.043478260869565216,
+          "wer": 0.26666666666666666,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.354,
+          "cer": 0.06748466257668712,
+          "wer": 0.43243243243243246,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.276,
+          "cer": 0.06666666666666667,
+          "wer": 0.4057971014492754,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.295,
+          "cer": 0.023529411764705882,
+          "wer": 0.208955223880597,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.014,
+          "cer": 0.02422145328719723,
+          "wer": 0.1935483870967742,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.781,
+          "cer": 0.022332506203473945,
+          "wer": 0.20238095238095238,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.104,
+          "cer": 0.025157232704402517,
+          "wer": 0.25396825396825395,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.8,
+          "cer": 0.042600896860986545,
+          "wer": 0.21348314606741572,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.063,
+          "cer": 0.015527950310559006,
+          "wer": 0.16393442622950818,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.048,
+          "cer": 0.029900332225913623,
+          "wer": 0.13333333333333333,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.195,
+          "cer": 0.046357615894039736,
+          "wer": 0.18181818181818182,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.404,
+          "cer": 0.011560693641618497,
+          "wer": 0.11594202898550725,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.338,
+          "cer": 0.03768115942028986,
+          "wer": 0.18571428571428572,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.674,
+          "cer": 0.031073446327683617,
+          "wer": 0.23076923076923078,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.414,
+          "cer": 0.036303630363036306,
+          "wer": 0.14516129032258066,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.53,
+          "cer": 0.9237947122861586,
+          "wer": 0.9827586206896551,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.942,
+          "cer": 0.803921568627451,
+          "wer": 0.9285714285714286,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 6.979,
+          "cer": 0.8984126984126984,
+          "wer": 0.9714285714285714,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.51,
+          "cer": 0.8507295173961841,
+          "wer": 0.9655172413793104,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.563,
+          "cer": 0.7518796992481203,
+          "wer": 0.9230769230769231,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.564,
+          "cer": 0.8194726166328601,
+          "wer": 0.9354838709677419,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.585,
+          "cer": 0.7285714285714285,
+          "wer": 0.8235294117647058,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.589,
+          "cer": 0.9148211243611585,
+          "wer": 0.9852941176470589,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.589,
+          "cer": 0.8965936739659367,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.584,
+          "cer": 1.7098445595854923,
+          "wer": 1.7692307692307692,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 6.815,
+          "cer": 0.8729874776386404,
+          "wer": 0.9605263157894737,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.537,
+          "cer": 0.6699346405228758,
+          "wer": 0.9629629629629629,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.524,
+          "cer": 0.8828451882845189,
+          "wer": 0.9473684210526315,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.528,
+          "cer": 0.8070175438596491,
+          "wer": 0.8695652173913043,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.599,
+          "cer": 0.8722222222222222,
+          "wer": 0.99,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.879,
+          "cer": 0.9126455906821963,
+          "wer": 0.9402985074626866,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 8.376,
+          "cer": 0.8615384615384616,
+          "wer": 0.9625,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.516,
+          "cer": 0.8748335552596538,
+          "wer": 0.9807692307692307,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.596,
+          "cer": 0.856637168141593,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 10.552,
+          "cer": 0.9143145161290323,
+          "wer": 0.9741379310344828,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.571,
+          "cer": 0.8623853211009175,
+          "wer": 0.8,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.666,
+          "cer": 0.9656488549618321,
+          "wer": 0.9767441860465116,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.526,
+          "cer": 0.8926056338028169,
+          "wer": 0.9672131147540983,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.57,
+          "cer": 1.0,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.884,
+          "cer": 0.9980842911877394,
+          "wer": 0.9782608695652174,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 8.017,
+          "cer": 0.808300395256917,
+          "wer": 0.96,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.166,
+          "cer": 0.8106995884773662,
+          "wer": 0.8787878787878788,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.74,
+          "cer": 0.7769784172661871,
+          "wer": 1.0,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.803,
+          "cer": 0.8911439114391144,
+          "wer": 0.9833333333333333,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.549,
+          "cer": 0.7632850241545893,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.619,
+          "cer": 0.7240143369175627,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.293,
+          "cer": 0.8197424892703863,
+          "wer": 0.9642857142857143,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.554,
+          "cer": 0.7378378378378379,
+          "wer": 0.8571428571428571,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.506,
+          "cer": 0.8837004405286344,
+          "wer": 0.8478260869565217,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.564,
+          "cer": 0.8865497076023392,
+          "wer": 0.9473684210526315,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.521,
+          "cer": 0.8012820512820513,
+          "wer": 0.9672131147540983,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.523,
+          "cer": 0.7315436241610739,
+          "wer": 0.6557377049180327,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.528,
+          "cer": 0.7283464566929134,
+          "wer": 0.7692307692307693,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.535,
+          "cer": 0.5502008032128514,
+          "wer": 0.8333333333333334,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.572,
+          "cer": 0.6816326530612244,
+          "wer": 0.8285714285714286,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.88,
+          "cer": 0.8969325153374234,
+          "wer": 1.0,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.522,
+          "cer": 0.8218181818181818,
+          "wer": 0.8876404494382022,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.526,
+          "cer": 0.9063545150501672,
+          "wer": 0.9509803921568627,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.574,
+          "cer": 0.836405529953917,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 6.387,
+          "cer": 0.8089171974522293,
+          "wer": 0.9772727272727273,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 5.687,
+          "cer": 0.8008130081300813,
+          "wer": 0.868421052631579,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.52,
+          "cer": 0.8390804597701149,
+          "wer": 0.9206349206349206,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.422,
+          "cer": 0.826879271070615,
+          "wer": 0.9583333333333334,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.516,
+          "cer": 0.8552631578947368,
+          "wer": 0.9487179487179487,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.505,
+          "cer": 0.678030303030303,
+          "wer": 0.8518518518518519,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.554,
+          "cer": 0.8478260869565217,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.52,
+          "cer": 0.8878504672897196,
+          "wer": 0.9456521739130435,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.559,
+          "cer": 0.8755868544600939,
+          "wer": 0.9416666666666667,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.52,
+          "cer": 0.9007936507936508,
+          "wer": 0.9761904761904762,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.518,
+          "cer": 0.8103837471783296,
+          "wer": 0.9054054054054054,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.521,
+          "cer": 0.7946428571428571,
+          "wer": 0.9397590361445783,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.59,
+          "cer": 0.8134171907756813,
+          "wer": 0.9523809523809523,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.531,
+          "cer": 0.8672268907563025,
+          "wer": 0.975609756097561,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.519,
+          "cer": 0.8109243697478992,
+          "wer": 0.9473684210526315,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.521,
+          "cer": 0.6657381615598886,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.52,
+          "cer": 0.7352112676056338,
+          "wer": 0.9705882352941176,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.515,
+          "cer": 0.5559006211180124,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 2.033,
+          "cer": 0.34375,
+          "wer": 0.9230769230769231,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 4.787,
+          "cer": 0.7058823529411765,
+          "wer": 1.0,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.52,
+          "cer": 0.7516129032258064,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.558,
+          "cer": 0.5244299674267101,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.515,
+          "cer": 0.3278008298755187,
+          "wer": 0.9090909090909091,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.533,
+          "cer": 0.6715447154471544,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.52,
+          "cer": 0.7667140825035562,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.712,
+          "cer": 0.45195729537366547,
+          "wer": 1.0,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.52,
+          "cer": 0.3593073593073593,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.516,
+          "cer": 0.610126582278481,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.582,
+          "cer": 0.26382978723404255,
+          "wer": 0.9130434782608695,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.438,
+          "cer": 0.32065217391304346,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 4.647,
+          "cer": 0.512,
+          "wer": 1.0,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.579,
+          "cer": 0.5112994350282486,
+          "wer": 0.9130434782608695,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 6.094,
+          "cer": 0.9464285714285714,
+          "wer": 0.9428571428571428,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.518,
+          "cer": 0.691358024691358,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.533,
+          "cer": 0.4536741214057508,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.517,
+          "cer": 0.4383116883116883,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.18,
+          "cer": 0.37373737373737376,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.468,
+          "cer": 0.6473988439306358,
+          "wer": 1.3846153846153846,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.263,
+          "cer": 1.0070422535211268,
+          "wer": 1.6571428571428573,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.576,
+          "cer": 0.7335423197492164,
+          "wer": 1.2083333333333333,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.519,
+          "cer": 0.6138996138996139,
+          "wer": 0.9393939393939394,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 1.995,
+          "cer": 0.4423076923076923,
+          "wer": 0.9375,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.514,
+          "cer": 0.5778894472361809,
+          "wer": 0.8529411764705882,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 4.148,
+          "cer": 0.9901960784313726,
+          "wer": 0.9444444444444444,
+          "used_ocr": true,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.609,
+          "cer": 0.7905759162303665,
+          "wer": 0.9587628865979382,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.518,
+          "cer": 0.775,
+          "wer": 0.9393939393939394,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.758,
+          "cer": 1.120603015075377,
+          "wer": 0.9636363636363636,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.632,
+          "cer": 0.8591954022988506,
+          "wer": 0.9772727272727273,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.657,
+          "cer": 0.806910569105691,
+          "wer": 0.9590163934426229,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.619,
+          "cer": 0.7741935483870968,
+          "wer": 0.9484536082474226,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.527,
+          "cer": 0.7735849056603774,
+          "wer": 0.9423076923076923,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.624,
+          "cer": 0.7057057057057057,
+          "wer": 0.8767123287671232,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.645,
+          "cer": 0.8957399103139013,
+          "wer": 1.0,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.515,
+          "cer": 0.8171806167400881,
+          "wer": 0.9739130434782609,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 3.6,
+          "cer": 0.7771883289124668,
+          "wer": 0.9891304347826086,
+          "used_ocr": false,
+          "image_id": null
+        },
+        {
+          "latency_s": 7.998,
+          "cer": 0.7736318407960199,
+          "wer": 0.9473684210526315,
+          "used_ocr": true,
+          "image_id": null
+        }
+      ],
+      "entropy_trigger_distribution": {
+        "triggered": [
+          0.41195272531111315,
+          0.8658738961870162,
+          0.732983371890441,
+          1.035858608780586,
+          0.8833135270360256,
+          1.0383003896186551,
+          1.1462501846253872,
+          0.9302458281847922,
+          0.972343927456273,
+          0.7069748847745358,
+          1.0206397524561908,
+          0.3668215783711829,
+          1.1023227215658922,
+          0.7295222155749798,
+          0.3344704865978826,
+          0.6989930042087339,
+          0.7854981789187955,
+          0.7199352210773213,
+          0.33431090930111934,
+          0.24756771113425202,
+          0.09969801920487953,
+          0.39439400874524033,
+          0.20864527631147212,
+          0.5004003520316473,
+          0.30086211102570815,
+          3.994999885559082,
+          0.6109023928466076,
+          0.9468432916037273,
+          0.4194343485555226,
+          0.37176324289373497,
+          0.751581325537245,
+          0.7583083866065863,
+          1.2434484266923391,
+          4.951324939727783,
+          0.5975745338846536,
+          0.8959588268581702,
+          0.746898677705758,
+          0.4326357994797263,
+          0.6033899282647556,
+          0.39982067906225893,
+          0.9102043833583593,
+          0.2805625454038818,
+          0.20167135683368542,
+          0.484169042651094,
+          0.7356676243975138,
+          0.7084553522301746,
+          0.22880145470413413,
+          0.6019103345809071
+        ],
+        "not_triggered": [
+          0.22089171633763494,
+          0.15572182293474987,
+          0.2144160286843544,
+          0.3469638207468225,
+          0.41048400398826096,
+          0.1620368376118222,
+          0.14880447478915795,
+          0.30259001706031086,
+          0.2266217885980717,
+          0.11548779399544444,
+          0.3056230532539334,
+          0.15320883486430897,
+          0.48778575821421466,
+          0.33690392661749985,
+          0.3979728185200926,
+          0.33492476240467484,
+          0.2202104978081106,
+          0.1463250988473713,
+          0.4507532930275535,
+          0.13550451209994208,
+          0.24547507372662206,
+          0.2822750899072547,
+          0.17391174943830784,
+          0.5538989935903373,
+          0.335247811534178,
+          0.4138079256871216,
+          0.4035797682877722,
+          0.26761849501360757,
+          0.3362397895985191,
+          0.2673019072310126,
+          0.12226565163337,
+          0.27822025613286605,
+          0.31032502780929266,
+          0.6091157182913183,
+          0.27932844057379824,
+          0.2936641880180719,
+          0.16014760355233193,
+          0.3150772284002354,
+          0.4837836212751901,
+          0.24025589835305178,
+          0.27264564950746717,
+          0.4172112489834911,
+          0.2911978193364327,
+          0.2893968654097989,
+          0.25882304073104845,
+          0.24827625907645973,
+          0.2035366634862612,
+          0.5640424204864661,
+          0.2063942074384486,
+          0.2325235192663513,
+          0.41072572035255245,
+          0.26615114912221377,
+          0.23163254395536242,
+          0.264312482110755,
+          0.22888051386514444,
+          0.4653421442333358,
+          0.45354056081883715,
+          0.20774547935912518,
+          0.32473933169535485,
+          0.15719280269189292,
+          0.378491954107666,
+          0.1730800681357323,
+          0.26112159254603284,
+          0.12448302664919399,
+          0.33770643604919315,
+          0.32363347292429445,
+          0.17186014479375444,
+          0.5895989306503907,
+          0.19498273820465242,
+          0.26124767147828953,
+          0.20142799243518722,
+          0.27772222957173653,
+          0.2615145202075837,
+          0.4198585175493008,
+          0.24697576187653084,
+          0.2129315675517385,
+          0.20844161355623272,
+          0.21761630534956566,
+          0.24484322609246842,
+          0.20289948848039785,
+          0.4784670101162983,
+          0.21071946277243114,
+          0.22390689644362283,
+          0.47618879948640824,
+          0.2226120792669235,
+          0.387701975314485,
+          0.3432969255577518,
+          0.20954839528985758,
+          0.29166994400293333,
+          0.4453877253072278,
+          0.3786875376426906,
+          0.10766259910121789,
+          0.15554916160726862,
+          0.2284050474727337,
+          0.09103200471781747,
+          0.19211667156844214,
+          0.13793223459924775,
+          0.2663313139391903,
+          0.33183587927942426,
+          0.26365015997726005,
+          0.19679156951815457,
+          0.22732374610404804,
+          0.3025951667368645,
+          0.38215680048779177,
+          0.22859244517053412,
+          0.22844621052900038,
+          0.625202754374186,
+          0.23212875924303944,
+          0.3874909791320533,
+          0.30956017310381867,
+          0.4381706311578455,
+          0.1961732769432274,
+          0.20275446114533224,
+          0.32307895535427633,
+          0.29779608208900754,
+          0.49247935178573243,
+          0.23064090233322077,
+          0.23378900864372554,
+          0.30738992584974767,
+          0.5851043350812688,
+          0.2930703877182168,
+          0.3364869316937984,
+          0.4800752646347064,
+          0.3397972991988354,
+          0.10111703894381208,
+          0.49519631765048266,
+          0.17385198369548463,
+          0.23548976627644153,
+          0.20092544627315814,
+          0.307573334284206,
+          0.3220746332158645,
+          0.3502392637161299,
+          0.4262481306148606,
+          0.61873985171216,
+          0.6207604220306332,
+          0.21043471130768507,
+          0.07449444871873583,
+          0.19121368160765423,
+          0.24802218270726883,
+          0.08922102823631127,
+          0.09042385880504604,
+          0.16194680066380118,
+          0.12220237191794163,
+          0.31258142167261166,
+          0.30796289774981966,
+          0.12441874572541564,
+          0.2973142258633743,
+          0.44116466536709087,
+          0.5066559967016439,
+          0.5556441475105073,
+          0.19979531368821196,
+          0.13434899103848022,
+          0.1868432961765211,
+          0.14987538987011445,
+          0.22541828210597312,
+          0.13190279620466755,
+          0.263884841649723,
+          0.47211689978366955,
+          0.43054542165560605,
+          0.33869646601746545,
+          0.13311137947292156,
+          0.15698139680977408,
+          0.24375663896198155,
+          0.1187972146366793,
+          0.2947310531991675,
+          0.2586932231857371,
+          0.14882721135302657,
+          0.36833793281148824,
+          0.1969613224021433,
+          0.14702775883368957,
+          0.2334684052164792,
+          0.21414141369502196,
+          0.1365779684856534,
+          0.6751205157928553,
+          0.515214235648134,
+          0.2804253413960396,
+          0.3685044889539597,
+          0.27790953784915473,
+          0.5092879073527001,
+          0.27443715378421984,
+          0.32210858526229913,
+          0.386491882856717,
+          0.24356551004643734,
+          0.432153150348654,
+          0.36640910052142317,
+          0.46514460887919995,
+          0.471425555904716,
+          0.421246563801649,
+          0.16320119097326824,
+          0.33450802532597734,
+          0.16129834016697941,
+          0.5201234380619346,
+          0.2203475092392182,
+          0.20141386351433255,
+          0.3295603501610458,
+          0.17870996554574958,
+          0.1666199416532379,
+          0.37408892889288836,
+          0.35442977383809193,
+          0.24431619549204697,
+          0.47715096457932304,
+          0.3990688539797702,
+          0.45555535178834816,
+          0.458966262319791,
+          0.5745594593576016,
+          0.3281069088689037,
+          0.4221277481881316,
+          0.2616286552223528,
+          0.33970786846225565,
+          0.3399207945869307,
+          0.2447076825703789,
+          0.5552015958367065,
+          0.3397674191819533,
+          0.43562552448668157,
+          0.3661622431068281,
+          0.210552000166075,
+          0.2253365260554574,
+          0.5810898175327566,
+          0.3023442041480848,
+          0.31409080476441886,
+          0.16637951680058904,
+          0.2120856573050105,
+          0.5047241158059074,
+          0.22991636730148457,
+          0.16130518904535052,
+          0.12308056772053533,
+          0.27942075523606036,
+          0.21354057341432053,
+          0.16239779480705607,
+          0.33011640826953226,
+          0.506918923956052,
+          0.13174376127426513,
+          0.23923834189372428,
+          0.19450373346626293,
+          0.1916312316461699,
+          0.47430635294753365,
+          0.44498457364272326,
+          0.19715704840915294,
+          0.4320156917865461,
+          0.4611119056076166,
+          0.19903964234981686,
+          0.36486262548885406,
+          0.25124263609927766,
+          0.39100353344610994,
+          0.6162077621129356,
+          0.2556853791851381,
+          0.30089251003505524,
+          0.25285190097918075,
+          0.40777926225200645,
+          0.3141345514013665,
+          0.283540957914056,
+          0.16547460500612488
+        ]
+      },
+      "calibration_bins": [
+        {
+          "bin": 0,
+          "count": 0,
+          "avg_confidence": 0.0,
+          "avg_accuracy": 0.0
+        },
+        {
+          "bin": 1,
+          "count": 0,
+          "avg_confidence": 0.0,
+          "avg_accuracy": 0.0
+        },
+        {
+          "bin": 2,
+          "count": 0,
+          "avg_confidence": 0.0,
+          "avg_accuracy": 0.0
+        },
+        {
+          "bin": 3,
+          "count": 1,
+          "avg_confidence": 0.36252107643562886,
+          "avg_accuracy": 0.0
+        },
+        {
+          "bin": 4,
+          "count": 0,
+          "avg_confidence": 0.0,
+          "avg_accuracy": 0.0
+        },
+        {
+          "bin": 5,
+          "count": 2,
+          "avg_confidence": 0.5483757396300061,
+          "avg_accuracy": 0.0
+        },
+        {
+          "bin": 6,
+          "count": 2,
+          "avg_confidence": 0.6324435089074263,
+          "avg_accuracy": 0.0
+        },
+        {
+          "bin": 7,
+          "count": 7,
+          "avg_confidence": 0.7799788234679007,
+          "avg_accuracy": 0.0
+        },
+        {
+          "bin": 8,
+          "count": 76,
+          "avg_confidence": 0.8703595446328173,
+          "avg_accuracy": 0.0
+        },
+        {
+          "bin": 9,
+          "count": 212,
+          "avg_confidence": 0.9402928177569657,
+          "avg_accuracy": 0.0
+        }
+      ],
+      "output_path": "outputs/cc_ocr_results_test.jsonl"
+    }
+  ],
+  "metrics_table": [
+    {
+      "experiment": "entropy_routing_default",
+      "accuracy": 0.0,
+      "cer": 0.4695966305692434,
+      "wer": 0.6160812818087028,
+      "coverage": 0.16,
+      "latency_s": 3.417603333333333,
+      "ece": 0.9122447136478555,
+      "brier": 0.8364997358528125,
+      "risk": 1.0
+    }
+  ]
+}
